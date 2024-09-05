@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,11 +25,11 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-global="true"
-     inkscape:zoom="1.0179639"
-     inkscape:cx="1308.4943"
-     inkscape:cy="511.31479"
+     inkscape:zoom="0.35990459"
+     inkscape:cx="320.91839"
+     inkscape:cy="234.78445"
      inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -2148,7 +2148,7 @@
        d="m 26.67202,181.43476 v 23.64712 l 52.523122,0"
        id="path52890-2"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2160,7 +2160,7 @@
        y="24.86688"
        ry="1.7607298"
        transform="matrix(0,1,1,0,0,0)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2168,7 +2168,7 @@
        d="m 181.6254,182.9049 v 22.17698 h -58.42514"
        id="path52890-7-7"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2178,7 +2178,7 @@
        height="31.684771"
        x="31.443237"
        y="119.16489"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2188,7 +2188,7 @@
        height="6.5143628"
        x="71.327354"
        y="108.75629"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2200,7 +2200,7 @@
        y="33.10677"
        ry="2.1245873"
        transform="matrix(0,1,1,0,0,0)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2212,7 +2212,7 @@
        y="28.857595"
        ry="2.1245873"
        transform="matrix(0,1,1,0,0,0)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2224,7 +2224,7 @@
        y="24.608419"
        ry="2.1245873"
        transform="matrix(0,1,1,0,0,0)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2236,7 +2236,7 @@
        y="-183.26514"
        ry="1.6237057"
        transform="rotate(90)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2248,7 +2248,7 @@
        y="-175.02524"
        ry="2.1245873"
        transform="rotate(90)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2260,7 +2260,7 @@
        y="-179.27441"
        ry="2.1245873"
        transform="rotate(90)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2272,7 +2272,7 @@
        y="-183.52359"
        ry="2.1245873"
        transform="rotate(90)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2280,7 +2280,7 @@
        d="M 60.945111,143.70139 H 135.79018"
        id="path54271-8"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2288,7 +2288,7 @@
        d="M 71.6799,105.7598 C 70.911195,98.525009 62.880393,82.095908 49.923596,77.569883"
        id="path54271-8-1-9"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2296,7 +2296,7 @@
        d="M 65.978379,113.75244 C 63.272675,107.43546 58.091941,96.123642 46.855697,91.537761"
        id="path54271-8-1-9-8"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2304,7 +2304,7 @@
        d="m 162.40538,117.0496 c 6.78708,-5.79947 16.04297,-26.607017 15.26324,-35.390798"
        id="path54271-8-1-9-2"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2312,7 +2312,7 @@
        d="m 102.0317,205.08188 h 16.10688"
        id="path52890-6-1"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <circle
@@ -2321,7 +2321,7 @@
        cx="90.626945"
        cy="205.08492"
        r="11.156455"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2329,7 +2329,7 @@
        d="m 122.64636,197.63637 v 15.85259"
        id="path53388-1"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2337,7 +2337,7 @@
        d="m 119.19462,191.87534 v 25.91584"
        id="path53390-7"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
@@ -2345,121 +2345,121 @@
        transform="matrix(0.26458333,0,0,0.26458333,3.0966178,6.6460015)"
        id="text57873-4"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="770.26042"
-         id="tspan2518"><tspan
+         y="768.74309"
+         id="tspan3239"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2516">A</tspan></tspan></text>
+           id="tspan3237">A</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,83.028402,-118.16842)"
+       transform="matrix(0.26458333,0,0,0.26458333,83.028402,-119.46799)"
        id="text57873-4-6"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2524"><tspan
+         y="746.35847"
+         id="tspan3245"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2520">TiO</tspan><tspan
+           id="tspan3241">TiO</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:sub"
-           id="tspan2522">2</tspan></tspan></text>
+           id="tspan3243">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-45.600576,-118.48591)"
        id="text57873-4-6-3"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-0-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2528"><tspan
+         y="746.35847"
+         id="tspan3249"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2526">Si</tspan></tspan></text>
+           id="tspan3247">Si</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-59.31668,-104.18744)"
+       transform="matrix(0.26458333,0,0,0.26458333,-59.836509,-104.18744)"
        id="text57873-4-6-3-7"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-0-3-9);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2532"><tspan
+         y="746.35847"
+         id="tspan3253"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2530">glue</tspan></tspan></text>
+           id="tspan3251">glue</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-36.478694,-129.15841)"
+       transform="matrix(0.26458333,0,0,0.26458333,-38.355965,-131.54942)"
        id="text57873-4-6-3-3-1"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect57875-0-0-3-3-1);display:inline;fill:#089a04;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        x="97.679657"
        y="0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
-         x="437.08892"
-         y="742.3068"
-         id="tspan2536"><tspan
+         x="443.08906"
+         y="741.35847"
+         id="tspan3257"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2534">raman
+           id="tspan3255">raman
 </tspan></tspan><tspan
-         x="381.08897"
-         y="784.16783"
-         id="tspan2540"><tspan
+         x="393.08925"
+         y="783.27553"
+         id="tspan3261"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2538">scattering</tspan></tspan></text>
+           id="tspan3259">scattering</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-11.998152,-11.762892)"
        id="text57873-4-6-3-3-5"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-0-3-3-4);display:inline;fill:#ff8000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2544"><tspan
+         y="746.35847"
+         id="tspan3265"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2542">luminescence</tspan></tspan></text>
+           id="tspan3263">luminescence</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,58.252489,-54.714187)"
        id="text57873-4-3"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="770.26042"
-         id="tspan2548"><tspan
+         y="768.74309"
+         id="tspan3269"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2546">I</tspan></tspan></text>
+           id="tspan3267">I</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,16.322794,-68.961626)"
        id="text57873-4-5"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-5);display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="770.26042"
-         id="tspan2552"><tspan
+         y="768.74309"
+         id="tspan3273"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2550">Q</tspan></tspan></text>
+           id="tspan3271">Q</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#089a04;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker24415)"
        d="m 137.72103,64.506505 c 3.58126,3.54193 1.88444,5.920314 -2.97103,4.083938 -4.84371,-1.831931 -6.67957,-0.466156 -2.99511,4.117035 3.19212,3.97078 1.49056,5.96407 -3.08098,4.235092 -7.43788,-2.813059 -4.38814,2.365102 -2.98782,4.10701 1.40034,1.741906 4.45007,6.92006 -2.98781,4.107007 -4.57155,-1.728988 -6.27312,0.264298 -3.08099,4.235088 3.68444,4.583194 1.84859,5.948968 -2.99512,4.117043 -4.85548,-1.836373 -6.55228,0.541994 -2.97104,4.08393 1.31448,1.300036 -2.0879,5.048482 -3.93819,7.227972"
        id="path1642-0-0-3"
        sodipodi:nodetypes="cssscssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2467,7 +2467,7 @@
        d="m 92.446428,106.1072 c 2.146478,-3.58502 -0.940589,-2.8856 -2.009455,-2.44273 -1.068877,0.44285 -4.155956,1.14228 -2.009465,-2.44274 1.319304,-2.203456 0.364448,-3.528415 -2.072119,-2.518896 -2.812366,1.165217 -3.412217,-0.114051 -2.014376,-2.448695 1.40124,-2.340328 0.234804,-3.736377 -1.998168,-2.429018 -0.819608,0.479863 -4.029132,-3.726434 -5.074014,-5.169497"
        id="path1642-0-9-1-6-6-70-5-9-2"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2475,7 +2475,7 @@
        d="m 118.9992,106.18531 c -1.89998,-3.72153 1.13293,-2.81564 2.16952,-2.30174 1.0366,0.5139 4.06952,1.41979 2.16953,-2.30173 -1.1678,-2.287382 -0.1258,-3.544972 2.23718,-2.373528 2.72743,1.352118 3.41214,0.116188 2.17482,-2.30736 -1.24031,-2.429448 0.0174,-3.743707 2.15735,-2.288822 0.7854,0.534013 4.27112,-3.446402 5.41089,-4.81576"
        id="path1642-0-9-1-6-6-70-5-9-2-6"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2483,7 +2483,7 @@
        d="m 101.51222,105.77421 c 3.33417,-2.51852 0.2101,-3.02774 -0.94684,-3.01799 -1.156942,0.01 -4.281034,-0.49951 -0.946846,-3.018014 2.049306,-1.54797 1.660956,-3.134302 -0.976367,-3.112121 -3.04409,0.0256 -3.120465,-1.385257 -0.949167,-3.025376 2.176579,-1.644114 1.618753,-3.37569 -0.94152,-3.001057 -0.939744,0.137507 -2.337777,-4.965382 -2.765288,-6.694961"
        id="path1642-0-9-1-6-6-70-5-9-2-0"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2491,7 +2491,7 @@
        d="m 57.423101,116.73333 c 2.043407,-3.64473 -1.022467,-2.85762 -2.078269,-2.38444 -1.055704,0.47339 -4.121707,1.26029 -2.078286,-2.38445 1.255949,-2.24019 0.263711,-3.5374 -2.143088,-2.45882 -2.778005,1.24493 -3.414082,-0.0167 -2.083368,-2.39027 1.333952,-2.37932 0.128191,-3.74155 -2.066601,-2.37107 -0.805597,0.50304 -4.133733,-3.61006 -5.21933,-5.022742"
        id="path1642-0-9-1-6-6-70-5-9-2-0-3"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2499,7 +2499,7 @@
        d="m 57.974282,153.96148 c 2.489991,3.35553 -0.651051,2.96437 -1.758421,2.62921 -1.107302,-0.33541 -4.248442,-0.7263 -1.758433,2.62922 1.530437,2.06242 0.711083,3.4752 -1.813262,2.71121 -2.913681,-0.88182 -3.384281,0.45043 -1.762736,2.63564 1.625489,2.19052 0.602607,3.69493 -1.748547,2.61445 -0.862988,-0.39658 -3.641474,4.10609 -4.538753,5.64528"
        id="path1642-0-9-1-6-6-70-5-9-2-0-3-2"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2507,7 +2507,7 @@
        d="m 117.83047,153.91881 c -3.24399,2.63365 -0.10402,3.03323 1.05188,2.983 1.15588,-0.0505 4.29588,0.34939 1.05187,2.98303 -1.99386,1.61873 -1.55024,3.19052 1.08469,3.07604 3.04133,-0.13211 3.16703,1.27521 1.05446,2.99031 -2.1177,1.71927 -1.49963,3.43028 1.04597,2.96627 0.93435,-0.17034 2.51011,4.88053 2.99789,6.59409"
        id="path1642-0-9-1-6-6-70-5-9-2-0-3-2-4-3"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2515,7 +2515,7 @@
        d="m 89.825478,154.40915 c 3.24399,2.63365 0.10402,3.03323 -1.05188,2.983 -1.15588,-0.0505 -4.29588,0.34939 -1.05187,2.98303 1.99386,1.61873 1.55024,3.19052 -1.08469,3.07604 -3.04133,-0.13211 -3.16703,1.27521 -1.05446,2.99031 2.1177,1.71927 1.49963,3.43028 -1.04597,2.96627 -0.93435,-0.17034 -2.51011,4.88053 -2.99789,6.59409"
        id="path1642-0-9-1-6-6-70-5-9-2-0-3-2-4-3-8"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2523,7 +2523,7 @@
        d="m 150.30841,153.58355 c -2.48999,3.35553 0.65106,2.96437 1.75843,2.62921 1.1073,-0.33541 4.24844,-0.7263 1.75843,2.62922 -1.53044,2.06242 -0.71108,3.4752 1.81326,2.71121 2.91368,-0.88182 3.38428,0.45043 1.76274,2.63564 -1.62549,2.19052 -0.60261,3.69493 1.74854,2.61445 0.86299,-0.39658 3.64148,4.10609 4.53876,5.64528"
        id="path1642-0-9-1-6-6-70-5-9-2-0-3-2-9"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2534,7 +2534,7 @@
        x="66.448257"
        y="116.06988"
        ry="1.1243101"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2542,7 +2542,7 @@
        d="m 82.286895,113.49061 c -1.032953,7.485 -8.373697,12.97685 -15.676799,14.16171"
        id="path54271-8-1-6"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2550,7 +2550,7 @@
        d="m 99.038674,113.49061 c -0.6755,6.25475 -5.47806,12.30114 -10.161506,15.00991"
        id="path54271-8-1-6-6-0-2"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2558,7 +2558,7 @@
        d="m 128.98663,112.97078 c 1.03295,7.485 8.37371,12.97685 15.67681,14.16171"
        id="path54271-8-1-6-0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2566,7 +2566,7 @@
        d="m 109.20426,113.49061 c 0.67549,6.25475 5.47805,12.30114 10.1615,15.00991"
        id="path54271-8-1-6-6-0-2-4"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2574,7 +2574,7 @@
        d="m 151.0958,116.70003 c -2.04341,-3.64473 1.02246,-2.85762 2.07827,-2.38444 1.0557,0.47339 4.1217,1.26029 2.07828,-2.38445 -1.25595,-2.24019 -0.26371,-3.5374 2.14309,-2.45882 2.77801,1.24493 3.41408,-0.0167 2.08337,-2.39027 -1.33395,-2.37932 -0.12819,-3.74155 2.0666,-2.37107 0.8056,0.50304 4.13373,-3.61006 5.21933,-5.022744"
        id="path1642-0-9-1-6-6-70-5-9-2-0-3-3"
        sodipodi:nodetypes="ccssssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/exp.png"
+       inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2589,100 +2589,100 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 346.01336,180.53005 v 11.63442"
+       d="m 342.46289,181.68849 v 11.63442"
        id="path53388-1-6-7"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 341.58795,176.30196 v 19.01996"
+       d="m 338.03748,177.4604 v 19.01996"
        id="path53390-7-4-4"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,258.37966,8.0967178)"
+       transform="matrix(0.26458333,0,0,0.26458333,254.82919,9.2551634)"
        id="text57873-4-52-6"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2556"><tspan
+         y="746.35847"
+         id="tspan3277"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan2554">V</tspan></tspan></text>
+           id="tspan3275">V</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,299.50688,-28.718103)"
        id="text57873-4-52-6-9"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2560"><tspan
+         y="746.35847"
+         id="tspan3281"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2558">-Q</tspan></tspan></text>
+           id="tspan3279">-Q</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,215.32091,-28.596231)"
        id="text57873-4-52-6-9-2"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2564"><tspan
+         y="746.35847"
+         id="tspan3285"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2562">-Q</tspan></tspan></text>
+           id="tspan3283">-Q</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,201.42539,-28.747178)"
        id="text57873-4-52-6-9-5"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4-1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2568"><tspan
+         y="746.35847"
+         id="tspan3289"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2566">+Q</tspan></tspan></text>
+           id="tspan3287">+Q</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,285.04232,-28.746322)"
        id="text57873-4-52-6-9-5-4"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4-1-5);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2572"><tspan
+         y="746.35847"
+         id="tspan3293"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2570">+Q</tspan></tspan></text>
+           id="tspan3291">+Q</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 389.68762,122.58171 24.19668,0 v 63.87848 h -67.21929"
+       d="m 389.68762,122.58171 h 24.19668 v 63.87848 h -70.85707"
        id="path4405"
        sodipodi:nodetypes="cccc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 290.66884,122.58171 -24.41372,0 v 63.87848 h 74.01463"
+       d="m 290.66884,122.58171 h -24.41372 v 63.87848 h 71.5759"
        id="path4405-1"
        sodipodi:nodetypes="cccc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2694,7 +2694,7 @@
        y="103.53648"
        ry="3.0517578e-05"
        rx="3.0517578e-05"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
@@ -2702,16 +2702,16 @@
        transform="matrix(0.26458333,0,0,0.26458333,253.82341,-71.321169)"
        id="text57873-4-52-6-9-5-8"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4-1-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2578"><tspan
+         y="746.35847"
+         id="tspan3299"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2574">ε</tspan><tspan
+           id="tspan3295">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2576">s</tspan></tspan></text>
+           id="tspan3297">s</tspan></tspan></text>
     <rect
        style="fill:#858585;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect5052"
@@ -2721,7 +2721,7 @@
        y="103.53648"
        ry="0"
        rx="0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2733,7 +2733,7 @@
        y="103.53648"
        ry="0"
        rx="0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
@@ -2741,37 +2741,37 @@
        transform="matrix(0.26458333,0,0,0.26458333,210.78322,-72.182126)"
        id="text57873-4-52-6-9-5-8-0-2"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4-1-0-1-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2584"><tspan
+         y="746.35847"
+         id="tspan3305"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2580">ε</tspan><tspan
+           id="tspan3301">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2582">c</tspan></tspan></text>
+           id="tspan3303">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,292.84525,-71.490255)"
        id="text57873-4-52-6-9-5-8-0-2-4"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-4-1-0-1-4-7);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2590"><tspan
+         y="746.35847"
+         id="tspan3311"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2586">ε</tspan><tspan
+           id="tspan3307">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2588">c</tspan></tspan></text>
+           id="tspan3309">c</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 293.95808,102.61753 c 0,-8.307734 -0.57045,-15.220914 6.97788,-15.240374 12.11864,-0.0312 24.36912,0.1754 33.31685,-0.58582 2.8527,-0.24269 4.60902,-1.5799 5.16426,-3.83541 0.64234,2.37659 2.19553,3.6096 5.07895,3.74831 11.1789,0.53777 26.43565,0.14687 35.42247,0.43175 6.98332,0.22137 6.70571,7.94224 6.67135,15.371954"
        id="path62056"
        sodipodi:nodetypes="csscssc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
@@ -2780,104 +2780,104 @@
        id="text57873-4-52-6-3"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2598"><tspan
+         y="746.35847"
+         id="tspan3319"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2592">Δ</tspan><tspan
+           id="tspan3313">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2594">V</tspan><tspan
+           id="tspan3315">V</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2596">c</tspan></tspan></text>
+           id="tspan3317">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,249.49791,-97.888123)"
        id="text57873-4-52-6-3-1"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2606"><tspan
+         y="746.35847"
+         id="tspan3327"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2600">Δ</tspan><tspan
+           id="tspan3321">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2602">V</tspan><tspan
+           id="tspan3323">V</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan2604">s</tspan></tspan></text>
+           id="tspan3325">s</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,249.49791,-117.05447)"
        id="text57873-4-52-6-3-1-9"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2614"><tspan
+         y="746.35847"
+         id="tspan3335"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2608">Δ</tspan><tspan
+           id="tspan3329">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2610">V</tspan><tspan
+           id="tspan3331">V</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan2612">T</tspan></tspan></text>
+           id="tspan3333">T</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,286.00159,-97.517935)"
        id="text57873-4-52-6-3-1-3"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4-1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2622"><tspan
+         y="746.35847"
+         id="tspan3343"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2616">Δ</tspan><tspan
+           id="tspan3337">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2618">V</tspan><tspan
+           id="tspan3339">V</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2620">c</tspan></tspan></text>
+           id="tspan3341">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,210.98726,-43.564322)"
        id="text57873-4-52-6-3-17"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-0);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2628"><tspan
+         y="746.35847"
+         id="tspan3349"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2624">d</tspan><tspan
+           id="tspan3345">d</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2626">c</tspan></tspan></text>
+           id="tspan3347">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,253.83932,-43.618306)"
        id="text57873-4-52-6-3-1-5"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2634"><tspan
+         y="746.35847"
+         id="tspan3355"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2630">d</tspan><tspan
+           id="tspan3351">d</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan2632">s</tspan></tspan></text>
+           id="tspan3353">s</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,295.18329,-42.94904)"
@@ -2888,18 +2888,18 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
-         y="747.3068"
-         id="tspan2640"><tspan
+         y="746.35847"
+         id="tspan3361"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan2636">d</tspan><tspan
+           id="tspan3357">d</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan2638">c</tspan></tspan></text>
+           id="tspan3359">c</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker62689);marker-end:url(#marker20700)"
        d="m 295.3479,144.56506 h 7.6092"
        id="path69381"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2907,7 +2907,7 @@
        d="m 305.69168,144.55653 68.30272,0.007"
        id="path69381-4"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2915,7 +2915,7 @@
        d="m 376.70713,144.47039 h 8.29668"
        id="path69381-5"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2923,7 +2923,7 @@
        d="M 304.54342,159.15264 V 141.28608"
        id="path130915-7"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2931,7 +2931,7 @@
        d="M 290.91661,159.15264 V 141.28608"
        id="path130915-7-7"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2939,7 +2939,7 @@
        d="M 375.4069,158.85542 V 140.98886"
        id="path130915-7-7-3"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -2947,7 +2947,7 @@
        d="M 389.31944,158.85542 V 141.28608"
        id="path130915-1-2"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2959,7 +2959,7 @@
        y="-293.34604"
        ry="1.3385985"
        transform="rotate(90)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
@@ -2971,7 +2971,7 @@
        y="-389.68762"
        ry="1.3385985"
        transform="rotate(90)"
-       inkscape:export-filename="/home/ty/research/repos/flash_paper/circuit.png"
+       inkscape:export-filename="circuit.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
