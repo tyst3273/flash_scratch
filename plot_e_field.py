@@ -6,15 +6,17 @@ mpl.rc('text', usetex=True)
 mpl.rcParams['text.latex.preamble'] = r"\usepackage{bm}"
 
 
-x = 1000
+#ET = 1 #500 # V/cm
+
+x = 1e-3
 
 ny = 1000
 y = np.geomspace(0.1, 1000, num=ny) #np.linspace(1e-3,1e3)
  
 fig, ax = plt.subplots(figsize=(4,4))
 
-Ea = 1/(1+y/x)
-Eb = 1/(1/y+1/x)
+Ea = 1/(1+2*x*y)
+Eb = 1/(1/y+2*x)
 
 ax.plot(y,Ea,c='r',ms=0,ls='-',lw=1,label=r'E$_a$')
 ax.plot(y,Eb,c='b',ms=0,ls='--',lw=1,label=r'E$_b$')
@@ -35,13 +37,13 @@ ax.tick_params(which='major', length=5)
 ax.tick_params(which='minor', length=3, color='k')
 ax.set_rasterization_zorder(10000)
 
-ax.set_ylabel(r'E/V',labelpad=0.0,fontweight='normal',fontsize='large')
+ax.set_ylabel(r'E/E$_T$',labelpad=0.0,fontweight='normal',fontsize='large')
 ax.set_xlabel(r'$\varepsilon_a/\varepsilon_b$',labelpad=3.0,fontweight='normal',fontsize='large')
 
 ax.set_xscale('log')
 ax.set_yscale('log')
 
-ax.annotate(rf'd$_a$/(2d$_b$)={x:d}',xy=(0.05,0.65),xycoords='axes fraction',fontsize='large')
+ax.annotate(rf'd$_a$/d$_b$={1/x:.0f}',xy=(0.05,0.65),xycoords='axes fraction',fontsize='large')
 
 ax.legend(frameon=False)
 
@@ -52,6 +54,6 @@ ax.axis([0.1,1000,0.1,1000])
 
 plt.savefig('e_fields.pdf',dpi=300,bbox_inches='tight')
 
-plt.show()
+#plt.show()
 
 
