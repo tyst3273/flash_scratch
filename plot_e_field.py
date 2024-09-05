@@ -8,15 +8,18 @@ mpl.rcParams['text.latex.preamble'] = r"\usepackage{bm}"
 
 #ET = 1 #500 # V/cm
 
-x = 1e-3
+x = 1e-3 
 
+ymax = 1000
 ny = 1000
-y = np.geomspace(0.1, 1000, num=ny) #np.linspace(1e-3,1e3)
+y = np.geomspace(0.1, ymax, num=ny) #np.linspace(1e-3,1e3)
  
 fig, ax = plt.subplots(figsize=(4,4))
 
 Ea = 1/(1+2*x*y)
 Eb = 1/(1/y+2*x)
+
+#print(Eb.max())
 
 ax.plot(y,Ea,c='r',ms=0,ls='-',lw=1,label=r'E$_a$')
 ax.plot(y,Eb,c='b',ms=0,ls='--',lw=1,label=r'E$_b$')
