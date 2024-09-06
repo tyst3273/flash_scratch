@@ -20,6 +20,19 @@ mpl.rcParams['text.latex.preamble'] = r"\usepackage{bm}"
 # mpl.rcParams['mathtext.fontset'] = 'stix'
 # mpl.rcParams['font.family'] = 'STIXGeneral'
 
+fits = {'400_air':dict(t0=46.203,sig_hi=7835.644,sig_0=-29.423,tau=0.066,
+ sig_lo=-7830.405,sig_lin=0.959,err_tau=0.001),
+'400_vac':dict(t0=65.825,sig_hi=49.032,sig_0=-24.719,tau=0.050,
+ sig_lo=-48.506,sig_lin=1.457,err_tau=0.002),
+'600_air':dict(t0=19.060,sig_hi=51.089,sig_0=-20.299,tau=0.101,
+ sig_lo=-46.332,sig_lin=2.208,err_tau=0.002),
+'600_vac':dict(t0=24.857,sig_hi=-28.386,sig_0=-27.239,tau=0.168,
+ sig_lo=32.580,sig_lin=1.853,err_tau=0.005),
+'960_air':dict(t0=87.247,sig_hi=-167.368,sig_0=-20.531,tau=0.116,
+ sig_lo=170.963,sig_lin=1.515,err_tau=0.003),
+'960_vac':dict(t0=51.188,sig_hi=-102.882,sig_0=-44.741,tau=0.213,
+ sig_lo=113.609,sig_lin=1.200,err_tau=0.004)}
+
 # --------------------------------------------------------------------------------------------------
 
 def replace_zeros(x,array):
@@ -62,68 +75,12 @@ def get_data(file_name,sample_len,sample_area):
     conductivity = 1/resistivity
 
     return current, current_den, voltage, field, resistivity, conductivity, time
+
 # --------------------------------------------------------------------------------------------------
 
-def _obj_func_decay(time,sig_c,sig_0,tau):
-    return sig_c - sig_0 * np.exp(-time/tau)
-
-def _obj_func(time,sig_c,sig_0,tau):
-    return sig_c + sig_0 * np.exp(time/tau)
+def _obj_func_hi(time,sig_hi, sig_0, tau, sig_lo, sig_lin):
+    return sig_hi - sig_0 * np.exp(-time/tau) + sig_lo - sig_lin * time
         
-# --------------------------------------------------------------------------------------------------
-
-def fit_conductivity(time,conductivity,lims,buffer=10,decay=True):
-    
-    """
-    fit exponential decay constant for current:
-        
-    sig = sig_c + sig_0 * exp(-t/tau)
-    """
-    
-    _lo = np.flatnonzero(time >= lims[0]).min()
-    _hi = np.flatnonzero(time <= lims[1]).max()
-    
-    _inds = np.flatnonzero(conductivity == 0)    
-    _inds = np.r_[_inds,np.flatnonzero(np.isnan(conductivity))]
-    _inds = np.r_[_inds,np.flatnonzero(np.isinf(conductivity))]
-    _inds = np.unique(_inds)
-    
-    _t = np.delete(time,_inds)
-    _c = np.delete(conductivity,_inds)
-    
-    _t = _t[_lo+buffer:_hi-buffer] 
-    _c = _c[_lo+buffer:_hi-buffer]
-    _const = max(_c[0],_c[-1])
-    # print(_const)
-    
-    _inds = np.flatnonzero((_const - _c)/_const > 0.2 )
-
-    _t = _t[_inds]
-    _c = _c[_inds]
-    
-    _t0 = _t[0]
-    _t -= _t0
-    
-    if decay:
-        f = _obj_func_decay
-    else:
-        f = _obj_func
-        
-    params = [1,100,10]
-    popt, pcov = curve_fit(f,_t,_c,p0=params)
-    
-    perr = np.sqrt(np.diag(pcov))
-    
-    sig_c, sig_0, tau = popt
-    err_c, err_0, err_tau = perr
-    fit = f(_t,*popt)
-    
-    # plt.plot(_t,_c,c='r')
-    # plt.plot(_t,fit,c='b')
-    # exit()
-    
-    return _t, _t0, sig_c, sig_0, tau, fit, err_c, err_0, err_tau
-
 # --------------------------------------------------------------------------------------------------
 
 def parse_file_name(file_name):
@@ -139,33 +96,14 @@ def parse_file_name(file_name):
 
 def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims):
     
-        
     current, current_den, voltage, field, resistivity, conductivity, time = \
             get_data(file_name,sample_len,sample_area)
             
     temp, environ = parse_file_name(file_name)
     
-    print(temp,environ)
-    
-    # ----------------------------------------------------------------------------------------------
-    # fit the data in the low-lims, hi-lims ranges
-    
-    lo_t, lo_t0, lo_sig_c, lo_sig_0, lo_tau, lo_fit, lo_err_c, lo_err_0, lo_err_tau = \
-            fit_conductivity(time,conductivity,t_lo_lims,decay=False)
-            
-    hi_t, hi_t0, hi_sig_c, hi_sig_0, hi_tau, hi_fit, hi_err_c, hi_err_0, hi_err_tau = \
-            fit_conductivity(time,conductivity,t_hi_lims,decay=True)
-        
-    # ----------------------------------------------------------------------------------------------
-    
-    # interpolate out 0's for plotting
-    # replace_zeros(time,field)
-    # replace_zeros(time,current_den)
-    # replace_zeros(time,conductivity)
-    
     fig, ax = plt.subplots(2,2,figsize=(4,5),
-                           gridspec_kw={'height_ratios':[1,1],'width_ratios':[1,3],
-                                        'hspace':0.125,'wspace':0.1}) 
+                           gridspec_kw={'height_ratios':[1,1],'width_ratios':[1,1],
+                                        'hspace':0.1,'wspace':0.1}) 
     
     field_ax = ax[0,0]; field_twin = ax[0,1]
     current_ax = field_ax.twinx(); current_twin = field_twin.twinx()
@@ -183,9 +121,13 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     rho_ax.plot(time,conductivity,lw=1,marker='o',ms=1,c='m')
     rho_twin.plot(time,conductivity,lw=1,marker='o',ms=1,c='m')
     
-    rho_ax.plot(lo_t+lo_t0,lo_fit,c='k',ls=(0,(4,1,1,1)),lw=2)
-    
-    rho_twin.plot(hi_t+hi_t0,hi_fit,c='k',ls=(0,(4,1,1,1)),lw=2)
+    params = fits[f'{temp}_{environ}']
+    t0 = params['t0']
+    tau = params['tau']
+    err_tau = params['err_tau']
+    del params['t0'], params['err_tau']
+    _fit = _obj_func_hi(time-t0,**params)
+    rho_twin.plot(time,_fit,lw=1,marker='o',ms=0,c='k')
     
     axes = [field_ax,current_ax,rho_ax, field_twin,current_twin,rho_twin]
     
@@ -206,12 +148,6 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     field_ax.spines.right.set_visible(False)
     current_ax.spines.right.set_visible(False)
     rho_ax.spines.right.set_visible(False)
-    
-    # field_ax.spines.left.set_color('b')
-    # current_ax.spines.left.set_color('b')
-    # field_twin.spines.right.set_color('r')
-    # current_twin.spines.right.set_color('r')
-    # rho_ax.spines.left.set_color('m')
     
     field_ax.tick_params(axis='y', colors='b')
     current_twin.tick_params(axis='y', colors='r')
@@ -256,9 +192,6 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     rho_twin.plot([0,0],[0,1], transform=rho_twin.transAxes, lw=1, ls=(0,(4,1,2,1)),ms=0, c='k')
     rho_twin.plot([0,0],[0,1], transform=rho_twin.transAxes, lw=1, ls=(0,(4,1,2,1)),ms=0, c='k')
     
-    # rho_ax.set_yscale('log')
-    # rho_twin.set_yscale('log')
-    
     field_ax.set_xlim(t_lo_lims)
     field_ax.set_ylim(field_ylims)
     current_ax.set_xlim(t_lo_lims)
@@ -279,6 +212,8 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     field_twin.set_xticklabels([])
     current_twin.set_xticklabels([])
     
+    rho_twin.annotate(rf'$\tau=$ {tau*60:.2f}'+'\n'+rf' $  \pm$ {err_tau*60:.2f} s',
+                      xy=(0.5,0.7),xycoords='axes fraction',fontsize='large')
     
     field_ax.set_ylabel('E-field [V/cm]',fontsize='large',labelpad=5,c='b')
     current_twin.set_ylabel(r'Current density [mA/mm$^2$]',fontsize='large',labelpad=3,c='r')
@@ -286,14 +221,7 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     
     fig.supxlabel('Time [m]',fontsize='large',y=0.02)
     
-    field_twin.annotate(rf'T={temp}$^\circ$C, flashed in {environ}',xy=(0.125,0.85),xycoords='axes fraction',
-                        fontsize='large')
-    
-    rho_twin.annotate(rf'$\sigma(t)\sim \exp(-t/\tau)$',xy=(0.3,0.85),xycoords='axes fraction',
-                        fontsize='large')
-    rho_twin.annotate(rf'$\tau=${hi_tau*60:.3f} s',xy=(0.4,0.7),xycoords='axes fraction',
-                        fontsize='large')
-    
+    fig.suptitle(rf'T={temp}$^\circ$C, flashed in {environ}',fontsize='large',y=0.94)
     
     fig_name = f'TiO2_{temp}_C_{environ}.png'
     plt.savefig(fig_name,dpi=300,bbox_inches='tight')
@@ -303,18 +231,96 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
 
 
 file_name = 'TiO2/900C-400C-TiO2-Air-new-3.csv'
-sample_len = 0.204
-sample_area = 1.6775
+sample_len = 0.217
+sample_area = 1.7545
 
 field_ylims = [0,600]
 current_ylims = [0,150]
-rho_ylims = [0,70]
+rho_ylims = [0,80]
 
-t_lo_lims = [0,1/3] # should be 1/3 long as high lim
-t_hi_lims = [46,47] 
+# 3 to 1 ratio
+t_lo_lims = [0,3] 
+t_hi_lims = [45,48] 
 
 plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims)
 
+# --------------------------------
 
+file_name = 'TiO2/900C-400C-TiO2-Vac-new-3.csv'
+sample_len = 0.204
+sample_area = 1.6775
 
+field_ylims = [0,400]
+current_ylims = [0,150]
+rho_ylims = [0,80]
+
+# 3 to 1 ratio
+t_lo_lims = [0,3] 
+t_hi_lims = [64.5,67.5] 
+
+plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims)
+
+# --------------------------------
+
+file_name = 'TiO2/900C-600C-TiO2-Air-new-4.csv'
+sample_len = 0.211
+sample_area = 1.8535
+
+field_ylims = [0,400]
+current_ylims = [0,150]
+rho_ylims = [0,80]
+
+# 3 to 1 ratio
+t_lo_lims = [0,3] 
+t_hi_lims = [18,21] 
+
+plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims)
+
+# --------------------------------
+
+file_name = 'TiO2/900C-600C-TiO2-Vac-new-3.csv'
+sample_len = 0.194
+sample_area = 1.4245
+
+field_ylims = [0,400]
+current_ylims = [0,150]
+rho_ylims = [0,100]
+
+# 3 to 1 ratio
+t_lo_lims = [0,3] 
+t_hi_lims = [23.5,26.5] 
+
+plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims)
+
+# --------------------------------
+
+file_name = 'TiO2/900C-960C-TiO2-Air-new-2.csv'
+sample_len = 0.214
+sample_area = 1.969
+
+field_ylims = [0,400]
+current_ylims = [0,150]
+rho_ylims = [0,90]
+
+# 3 to 1 ratio
+t_lo_lims = [0,3] 
+t_hi_lims = [86,89] 
+
+plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims)
+
+# --------------------------------
+
+file_name = 'TiO2/900C-960C-TiO2-Vac-new-4.csv'
+sample_len = 0.227
+sample_area = 1.5675
+
+field_ylims = [0,400]
+current_ylims = [0,150]
+rho_ylims = [0,100]
+
+# 3 to 1 ratio
+t_lo_lims = [0,3] 
+t_hi_lims = [50,53] 
+
+plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_ylims,t_lo_lims,t_hi_lims)
 
