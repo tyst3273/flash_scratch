@@ -56,7 +56,8 @@ def get_temps(anti_params,stokes_params,anti_err,stokes_err):
         E = w*invcm_2_eV 
         T = -E / (kB * np.log(ratio / (((E_laser+E)/(E_laser-E))**4 )))
         
-        T_err = -E*(-1)*(kB*(np.log(ratio)-np.log((E_laser+E)/(E_laser-E))**4))**(-2)*(kB*1/ratio-kB)*err_ratio
+        T_err = -E*(-1)*(kB*(np.log(ratio)-np.log((E_laser+E)/(E_laser-E))**4))**(-2) \
+                *(kB*1/ratio-kB)*err_ratio
         
         temps.append(T)
         temp_errs.append(T_err)
@@ -81,9 +82,9 @@ def fit_data(data_set):
         x = dd[:,0]
         y = dd[:,1]
         
-        _inds = np.flatnonzero(np.abs(x) < 600)
-        _inds = np.intersect1d(_inds,np.flatnonzero(np.abs(x) > 400))
-        
+        _inds = np.flatnonzero(np.abs(x) < 550)
+        _inds = np.intersect1d(_inds,np.flatnonzero(np.abs(x) > 450))
+
         x = x[_inds]
         y = y[_inds]
             
@@ -97,7 +98,10 @@ def fit_data(data_set):
         fit = _obj_func(x,*popt)
          
         popt[-1] = np.abs(popt[-1])
-        # plt.show()
+
+        plt.plot(x,y,c='r')
+        plt.plot(x,fit,c='b')
+        plt.show()
         # exit()
         
         params.append(popt)
