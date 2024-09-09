@@ -256,8 +256,8 @@ def plot_and_fit(directory,sample_len,sample_area):
         g_err.append(e)
         
         
-    data = np.c_[temps,temp_errs,w0,w0_err,g,g_err]
-    np.savetxt('si_on_tio2_data.txt',data,fmt='%.6f',header='T [K], dT [K], w0 [1/cm], dw0 [1/cm], G [1/cm], dG [1/cm]')
+    data = np.c_[temps,temp_errs,w0,w0_err,g,g_err,currents]
+    np.savetxt('si_on_tio2_data.txt',data,fmt='%.6f',header='T [K], dT [K], w0 [1/cm], dw0 [1/cm], G [1/cm], dG [1/cm], I [mA]')
         
     return temps, temp_errs, w0, w0_err, g, g_err
  

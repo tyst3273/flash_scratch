@@ -289,7 +289,7 @@ def plot_and_fit(directory,sample_len,sample_area):
     
     fig_name = 'si_raman.png'
     plt.savefig(fig_name,dpi=300,bbox_inches='tight')
-    
+
     on_w0 = []
     on_w0_err = []
     on_g = []
@@ -343,15 +343,16 @@ def plot_and_fit(directory,sample_len,sample_area):
         off_g_err.append(e)
         
     return on_temps, on_errs, off_temps, off_errs, \
-        on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err
+        on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, \
+        on_currents, off_currents
         
         
 # --------------------------------------------------------------------------------------------------
 
-def plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
-    on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err):
+def plot_vs_temps(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g, on_g_err, 
+                off_w0, off_w0_err, off_g, off_g_err,on_currents,off_currents):
     
-    fig, ax = plt.subplots(1,2,figsize=(4,2.5),
+    fig, ax = plt.subplots(2,1,figsize=(4,6),
                            gridspec_kw={'hspace':0.1,'wspace':0.075}) 
     
     w_ax = ax[0]; g_ax = ax[1]
@@ -367,7 +368,7 @@ def plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
     g_ax.errorbar(on_temps,on_g,yerr=on_g_err,xerr=on_errs,ms=6,lw=0,
                   c='r',marker='s',markerfacecolor='none',markeredgewidth=1.5)
     
-    _T, _dT, _w, _dw, _g, _dg = np.loadtxt('si_on_tio2_data.txt',unpack=True)
+    _T, _dT, _w, _dw, _g, _dg, _I = np.loadtxt('si_on_tio2_data.txt',unpack=True)
     w_ax.errorbar(_T,_w,yerr=_dw,xerr=_dT,ms=6,lw=0,elinewidth=1, #ls=(0,(4,2,2,2)),
                   c='m',marker='^',label='Si on TiO2',markerfacecolor=None,
                   markeredgewidth=1.5,zorder=1000)
@@ -378,29 +379,33 @@ def plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
     g_ax.plot(ref_g_T,ref_g,marker='x',ms=6,c='k',lw=0,zorder=1000,mew=2)
     
     w_ax.legend(frameon=False,fontsize='large',loc='upper right',
-                bbox_to_anchor=(1.075,1.05),
-                labelspacing=0.1,handlelength=0.2,handletextpad=0.7)
+                bbox_to_anchor=(1.0,1.0),handletextpad=0.1)
+                #labelspacing=0.1,handlelength=0.5,handletextpad=0.7)
     
-    # fit straight lines
-    _T = np.r_[_T,on_temps,off_temps]
-    _w = np.r_[_w,on_w0,off_w0]
-    _g = np.r_[_g,on_g,off_g]
+    _T_fit = np.r_[on_temps,off_temps]
+    _w_fit = np.r_[on_w0,off_w0]
+    _g_fit = np.r_[on_g,off_g]
     
-    _inds = np.argsort(_T)
-    _T = _T[_inds]
-    _w = _w[_inds]
-    _g = _g[_inds]
+    _inds = np.argsort(_T_fit)
+    _T_fit = _T_fit[_inds]
+    _w_fit = _w_fit[_inds]
+    _g_fit = _g_fit[_inds]
+
+    _T_plot = np.r_[_T,_T_fit]
+    _T_plot = np.sort(_T_plot)
     
-    coeff = np.polynomial.polynomial.polyfit(_T,_w,deg=1)
-    w_ax.plot(_T,coeff[0]+_T*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
+    coeff = np.polynomial.polynomial.polyfit(_T_fit,_w_fit,deg=1)
+
+    w_ax.plot(_T_plot,coeff[0]+_T_plot*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
     
-    coeff = np.polynomial.polynomial.polyfit(_T,_g,deg=1)
-    g_ax.plot(_T,coeff[0]+_T*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
+    coeff = np.polynomial.polynomial.polyfit(_T_fit,_g_fit,deg=1)
+
+    g_ax.plot(_T_plot,coeff[0]+_T_plot*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
     
     axes = [w_ax,g_ax]
     
-    g_ax.yaxis.tick_right()
-    g_ax.yaxis.set_label_position("right")
+    #g_ax.yaxis.tick_right()
+    #g_ax.yaxis.set_label_position("right")
     
     for _ax in axes:
         for axis in ['top','bottom','left','right']:
@@ -411,20 +416,22 @@ def plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
         _ax.tick_params(which='minor',length=2)
         _ax.set_rasterized = True
 
-    xlim = [150,2100]
+    xlim = [200,1900]
     w_ax.set_xlim(xlim)
     g_ax.set_xlim(xlim)
     
-    ylim = [493,525]
+    ylim = [495,522]
     w_ax.set_ylim(ylim)
     
-    ylim = [2,17]
+    ylim = [3,17]
     g_ax.set_ylim(ylim)
+
+    w_ax.set_xticklabels([])
     
     w_ax.set_ylabel('Raman shift [1/cm]',fontsize='large',labelpad=5)
     g_ax.set_ylabel('HWHM [1/cm]',fontsize='large',labelpad=5)
     
-    fig.supxlabel('Temperature [K]',fontsize='large',y=-0.08)
+    fig.supxlabel('Temperature [K]',fontsize='large',y=0.03)
     
     # fig.suptitle(rf'Flashing Si',fontsize='large',y=0.92)
     
@@ -433,15 +440,103 @@ def plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
         
 # --------------------------------------------------------------------------------------------------
 
+def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g, on_g_err,
+                off_w0, off_w0_err, off_g, off_g_err,on_currents,off_currents):
+
+    fig, ax = plt.subplots(1,figsize=(4,4),
+                           gridspec_kw={'hspace':0.1,'wspace':0.075})
+
+    T_ax = ax #; g_ax = ax[1]
+
+    T_ax.errorbar(off_currents,off_temps,yerr=off_errs,ms=6,lw=0,
+                  c='b',marker='o',label='Si - fan off')
+    T_ax.errorbar(on_currents,on_temps,yerr=on_errs,ms=6,lw=0,
+                  c='r',marker='s',label='Si - fan on',
+                  markerfacecolor='none',markeredgewidth=1.5)
+
+    _T, _dT, _w, _dw, _g, _dg, _I = np.loadtxt('si_on_tio2_data.txt',unpack=True)
+    _I /= 1.9345
+    T_ax.errorbar(_I,_T,yerr=_dT,ms=6,lw=0,elinewidth=1, #ls=(0,(4,2,2,2)),
+                  c='m',marker='^',label='Si on TiO2',markerfacecolor=None,
+                  markeredgewidth=1.5,zorder=1000)
+
+    #w_ax.plot(ref_w_T,ref_w,marker='x',ms=6,c='k',lw=0,zorder=1000,mew=2,label='ref.')
+    #g_ax.plot(ref_g_T,ref_g,marker='x',ms=6,c='k',lw=0,zorder=1000,mew=2)
+
+    T_ax.legend(frameon=False,fontsize='large',loc='upper right',
+                bbox_to_anchor=(1.0,1.0),handletextpad=0.1)
+                #labelspacing=0.1,handlelength=0.5,handletextpad=0.7)
+
+    _T_fit = np.r_[on_temps[1:],off_temps[1:]]
+    _I_fit = np.r_[on_currents[1:],off_currents[1:]]
+    _inds = np.argsort(_I_fit)
+    _T_fit = _T_fit[_inds]
+    _I_fit = _I_fit[_inds]
+    _I_plot = np.r_[on_currents,off_currents]
+    _I_plot = np.sort(_I_plot)
+    coeff = np.polynomial.polynomial.polyfit(_I_fit,_T_fit,deg=1)
+    T_ax.plot(_I_plot,coeff[0]+_I_plot*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
+
+    _T_fit = _T[1:]
+    _I_fit = _I[1:]
+    _inds = np.argsort(_I_fit)
+    _T_fit = _T_fit[_inds]
+    _I_fit = _I_fit[_inds]
+    _I_plot = _I
+    _I_plot = np.sort(_I_plot)
+    coeff = np.polynomial.polynomial.polyfit(_I_fit,_T_fit,deg=1)
+    T_ax.plot(_I_plot,coeff[0]+_I_plot*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
+
+    axes = [T_ax]
+
+    #g_ax.yaxis.tick_right()
+    #g_ax.yaxis.set_label_position("right")
+
+    for _ax in axes:
+        for axis in ['top','bottom','left','right']:
+            _ax.spines[axis].set_linewidth(1.5)
+        _ax.minorticks_on()
+        _ax.tick_params(which='both',width=1,labelsize='large')
+        _ax.tick_params(which='major',length=5)
+        _ax.tick_params(which='minor',length=2)
+        _ax.set_rasterized = True
+
+    xlim = [-50,750]
+    T_ax.set_xlim(xlim)
+
+    ylim = [200,2000]
+    T_ax.set_ylim(ylim)
+
+    T_ax.set_ylabel('Temperature [K]',fontsize='large',labelpad=5)
+    T_ax.set_xlabel(r'Current density [mA/mm$^2$]',fontsize='large')
+    #fig.supxlabel('Temperature [K]',fontsize='large',y=0.03)
+
+    #fig.suptitle(rf'POWER DISSIPATION INSTEAD',fontsize='large',y=0.95,c='r')
+
+    fig_name = f'temps_vs_currents.png'
+    plt.savefig(fig_name,dpi=300,bbox_inches='tight')
+
+# --------------------------------------------------------------------------------------------------
+
 
 directory = '20240730_Si_flash/20240730/corrected_Raman_data_export'
 sample_len = 0.230
-sample_area = 0.1011 # mm^2
+sample_area = 1.1011 # mm^2
 
 on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g, on_g_err, off_w0, \
-    off_w0_err, off_g, off_g_err = plot_and_fit(directory,sample_len,sample_area)
+    off_w0_err, off_g, off_g_err, on_currents, off_currents = \
+            plot_and_fit(directory,sample_len,sample_area)
     
 plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
-    on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err)
+    on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, on_currents, \
+    off_currents)
+
+on_currents = np.array(on_currents)/sample_area
+off_currents = np.array(off_currents)/sample_area
+
+plot_vs_currents(on_temps, on_errs, off_temps, off_errs,
+    on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, on_currents, \
+    off_currents)
+
 
 
