@@ -26,8 +26,8 @@
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:zoom="0.50898194"
-     inkscape:cx="193.52357"
-     inkscape:cy="1366.4532"
+     inkscape:cx="438.12949"
+     inkscape:cy="1211.2414"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -4460,7 +4460,7 @@
        fx="105"
        fy="130.85786"
        r="57.316067"
-       gradientTransform="matrix(0.39163521,0,0,0.34571834,99.95083,340.77638)"
+       gradientTransform="matrix(0.39163521,0,0,0.34571834,78.971696,340.77638)"
        gradientUnits="userSpaceOnUse" />
     <rect
        x="-1251.491"
@@ -4675,7 +4675,7 @@
        xlink:href="#linearGradient8357"
        id="linearGradient27206"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.66181,-322.27919)"
+       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.66181,-301.30006)"
        x1="134.61072"
        y1="159.71324"
        x2="134.61072"
@@ -4685,7 +4685,7 @@
        xlink:href="#linearGradient8357"
        id="linearGradient27208"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.56173,-418.62076)"
+       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.56173,-397.64163)"
        x1="134.61072"
        y1="159.71324"
        x2="134.61072"
@@ -4711,7 +4711,7 @@
        fx="105"
        fy="130.85786"
        r="57.316067"
-       gradientTransform="matrix(0.65417133,0,0,0.34571834,202.38058,340.73156)"
+       gradientTransform="matrix(0.80758053,0,0,0.34471297,134.67878,340.86312)"
        gradientUnits="userSpaceOnUse" />
     <rect
        x="-1251.491"
@@ -4926,7 +4926,7 @@
        xlink:href="#linearGradient8357"
        id="linearGradient28171"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.61699,-467.19132)"
+       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.61699,-424.36821)"
        x1="134.61072"
        y1="159.71324"
        x2="134.61072"
@@ -4936,7 +4936,7 @@
        xlink:href="#linearGradient8357"
        id="linearGradient28173"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.51691,-563.53289)"
+       gradientTransform="matrix(1.6639304,0,0,1.5935394,162.51691,-520.70978)"
        x1="134.61072"
        y1="159.71324"
        x2="134.61072"
@@ -6443,21 +6443,89 @@
        width="111.35189"
        height="114.64629"
        id="rect57875-0-70-2-7" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-5-0" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-20" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-5-6" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-21" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-5-7" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-5-7-4" />
+    <rect
+       x="-1251.491"
+       y="2588.8535"
+       width="189.3409"
+       height="138.94925"
+       id="rect10056-5-7-5" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.477509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.354405;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect66419"
-       width="426.08264"
-       height="108.57413"
-       x="-96.277946"
-       y="341.14972"
+       width="364.3812"
+       height="69.936241"
+       x="-88.968658"
+       y="346.70944"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,244.17891,-280.01656)"
+       id="text10054-9-4"
+       style="font-size:21.3333px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-7);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2606.0843"
+         id="tspan17758"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan17756">(a)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,367.87908,-280.11561)"
+       id="text10054-9-4-8"
+       style="font-size:21.3333px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-7-4);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2606.0843"
+         id="tspan17762"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan17760">(b)</tspan></tspan></text>
     <rect
        style="fill:url(#radialGradient172837);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect163284"
@@ -6685,9 +6753,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="768.74309"
-         id="tspan14242"><tspan
+         id="tspan17766"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14240">A</tspan></tspan></text>
+           id="tspan17764">A</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,83.028402,-119.46799)"
@@ -6698,11 +6766,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14248"><tspan
+         id="tspan17772"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14244">TiO</tspan><tspan
+           id="tspan17768">TiO</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:sub"
-           id="tspan14246">2</tspan></tspan></text>
+           id="tspan17770">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-45.600576,-118.48591)"
@@ -6713,9 +6781,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14252"><tspan
+         id="tspan17776"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14250">Si</tspan></tspan></text>
+           id="tspan17774">Si</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-59.836509,-104.18744)"
@@ -6726,9 +6794,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14256"><tspan
+         id="tspan17780"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14254">glue</tspan></tspan></text>
+           id="tspan17778">glue</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-38.355965,-131.54942)"
@@ -6741,15 +6809,15 @@
        inkscape:export-ydpi="300"><tspan
          x="443.08906"
          y="741.35847"
-         id="tspan14260"><tspan
+         id="tspan17784"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14258">Raman
+           id="tspan17782">Raman
 </tspan></tspan><tspan
          x="393.08925"
          y="783.27553"
-         id="tspan14264"><tspan
+         id="tspan17788"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14262">scattering</tspan></tspan></text>
+           id="tspan17786">scattering</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-11.998152,-11.762892)"
@@ -6760,9 +6828,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14268"><tspan
+         id="tspan17792"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14266">luminescence</tspan></tspan></text>
+           id="tspan17790">luminescence</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,58.252489,-54.714187)"
@@ -6773,9 +6841,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="768.74309"
-         id="tspan14272"><tspan
+         id="tspan17796"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14270">I</tspan></tspan></text>
+           id="tspan17794">I</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,16.322794,-68.961626)"
@@ -6786,9 +6854,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="768.74309"
-         id="tspan14276"><tspan
+         id="tspan17800"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14274">Q</tspan></tspan></text>
+           id="tspan17798">Q</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#089a04;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker24415)"
        d="m 137.72103,64.506505 c 3.58126,3.54193 1.88444,5.920314 -2.97103,4.083938 -4.84371,-1.831931 -6.67957,-0.466156 -2.99511,4.117035 3.19212,3.97078 1.49056,5.96407 -3.08098,4.235092 -7.43788,-2.813059 -4.38814,2.365102 -2.98782,4.10701 1.40034,1.741906 4.45007,6.92006 -2.98781,4.107007 -4.57155,-1.728988 -6.27312,0.264298 -3.08099,4.235088 3.68444,4.583194 1.84859,5.948968 -2.99512,4.117043 -4.85548,-1.836373 -6.55228,0.541994 -2.97104,4.08393 1.31448,1.300036 -2.0879,5.048482 -3.93819,7.227972"
@@ -7100,9 +7168,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="768.74309"
-         id="tspan14280"><tspan
+         id="tspan17804"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14278">A</tspan></tspan></text>
+           id="tspan17802">A</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33286;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect163284-6"
@@ -7140,9 +7208,9 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14284"><tspan
+         id="tspan17808"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14282">V</tspan></tspan></text>
+           id="tspan17806">V</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 389.68762,122.58171 h 24.19668 v 63.87848 h -70.85707"
@@ -7181,11 +7249,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14290"><tspan
+         id="tspan17814"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14286">ε</tspan><tspan
+           id="tspan17810">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14288">s</tspan></tspan></text>
+           id="tspan17812">s</tspan></tspan></text>
     <rect
        style="fill:#858585;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect5052"
@@ -7220,11 +7288,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14296"><tspan
+         id="tspan17820"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14292">ε</tspan><tspan
+           id="tspan17816">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14294">c</tspan></tspan></text>
+           id="tspan17818">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,292.84525,-71.490255)"
@@ -7235,11 +7303,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14302"><tspan
+         id="tspan17826"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14298">ε</tspan><tspan
+           id="tspan17822">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14300">c</tspan></tspan></text>
+           id="tspan17824">c</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 293.95808,102.45169 c 0,-8.307733 -0.57045,-8.548579 6.97788,-8.568039 12.11864,-0.0312 24.36912,0.1754 33.31685,-0.58582 2.8527,-0.24269 4.60902,-1.5799 5.16426,-3.83541 0.64234,2.37659 2.19553,3.6096 5.07895,3.74831 11.1789,0.53777 26.43565,0.14687 35.42247,0.43175 6.98332,0.22137 6.70571,1.269906 6.67135,8.699619"
@@ -7259,13 +7327,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14310"><tspan
+         id="tspan17834"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14304">Δ</tspan><tspan
+           id="tspan17828">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14306">V</tspan><tspan
+           id="tspan17830">V</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14308">c</tspan></tspan></text>
+           id="tspan17832">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,249.86548,-29.113684)"
@@ -7277,13 +7345,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14318"><tspan
+         id="tspan17842"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14312">Δ</tspan><tspan
+           id="tspan17836">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14314">V</tspan><tspan
+           id="tspan17838">V</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan14316">s</tspan></tspan></text>
+           id="tspan17840">s</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,249.49791,-110.54797)"
@@ -7295,13 +7363,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14326"><tspan
+         id="tspan17850"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14320">Δ</tspan><tspan
+           id="tspan17844">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14322">V</tspan><tspan
+           id="tspan17846">V</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan14324">T</tspan></tspan></text>
+           id="tspan17848">T</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,292.48368,-30.19441)"
@@ -7313,13 +7381,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14334"><tspan
+         id="tspan17858"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14328">Δ</tspan><tspan
+           id="tspan17852">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14330">V</tspan><tspan
+           id="tspan17854">V</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14332">c</tspan></tspan></text>
+           id="tspan17856">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,210.98726,-43.564322)"
@@ -7331,11 +7399,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14340"><tspan
+         id="tspan17864"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14336">d</tspan><tspan
+           id="tspan17860">d</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14338">c</tspan></tspan></text>
+           id="tspan17862">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,253.83932,-43.618306)"
@@ -7347,11 +7415,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14346"><tspan
+         id="tspan17870"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14342">d</tspan><tspan
+           id="tspan17866">d</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan14344">s</tspan></tspan></text>
+           id="tspan17868">s</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,295.18329,-42.94904)"
@@ -7363,11 +7431,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14352"><tspan
+         id="tspan17876"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14348">d</tspan><tspan
+           id="tspan17872">d</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14350">c</tspan></tspan></text>
+           id="tspan17874">c</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker62689);marker-end:url(#marker20700)"
        d="m 295.3479,144.56506 h 7.6092"
@@ -7470,11 +7538,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14358"><tspan
+         id="tspan17882"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14354">ε</tspan><tspan
+           id="tspan17878">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14356">s</tspan></tspan></text>
+           id="tspan17880">s</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,423.00701,404.57762)"
@@ -7485,11 +7553,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14364"><tspan
+         id="tspan17888"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14360">ε</tspan><tspan
+           id="tspan17884">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14362">c</tspan></tspan></text>
+           id="tspan17886">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,541.28699,404.71737)"
@@ -7500,11 +7568,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14370"><tspan
+         id="tspan17894"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14366">ε</tspan><tspan
+           id="tspan17890">ε</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14368">c</tspan></tspan></text>
+           id="tspan17892">c</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 503.7963,607.44769 c 0,-8.30773 -0.57045,-14.82521 6.97788,-14.84467 12.11864,-0.0312 45.52207,0.1754 54.4698,-0.58582 2.8527,-0.24269 4.60902,-1.5799 5.16426,-3.83541 0.64234,2.37659 1.86112,3.6096 4.74454,3.74831 11.1789,0.53777 45.24636,0.14687 54.23318,0.43175 6.98332,0.22137 6.70571,7.20458 6.67135,14.63429"
@@ -7524,13 +7592,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14378"><tspan
+         id="tspan17902"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14372">Δ</tspan><tspan
+           id="tspan17896">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14374">V</tspan><tspan
+           id="tspan17898">V</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan14376">T</tspan></tspan></text>
+           id="tspan17900">T</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,418.39653,468.45096)"
@@ -7542,13 +7610,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14386"><tspan
+         id="tspan17910"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14380">Δ</tspan><tspan
+           id="tspan17904">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14382">V</tspan><tspan
+           id="tspan17906">V</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14384">c</tspan></tspan></text>
+           id="tspan17908">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,482.66687,468.41388)"
@@ -7560,13 +7628,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14394"><tspan
+         id="tspan17918"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14388">Δ</tspan><tspan
+           id="tspan17912">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14390">V</tspan><tspan
+           id="tspan17914">V</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan14392">s</tspan></tspan></text>
+           id="tspan17916">s</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,421.31493,458.37671)"
@@ -7578,11 +7646,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14400"><tspan
+         id="tspan17924"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14396">d</tspan><tspan
+           id="tspan17920">d</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14398">c</tspan></tspan></text>
+           id="tspan17922">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,486.59777,457.77639)"
@@ -7594,11 +7662,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14406"><tspan
+         id="tspan17930"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14402">d</tspan><tspan
+           id="tspan17926">d</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan14404">s</tspan></tspan></text>
+           id="tspan17928">s</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker62689-13-0);marker-end:url(#marker20700-09-0)"
        d="m 503.53006,645.95123 10.47779,0"
@@ -7662,13 +7730,13 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14414"><tspan
+         id="tspan17938"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14408">Δ</tspan><tspan
+           id="tspan17932">Δ</tspan><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14410">V</tspan><tspan
+           id="tspan17934">V</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14412">c</tspan></tspan></text>
+           id="tspan17936">c</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,543.35352,458.30135)"
@@ -7680,11 +7748,11 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="746.35847"
-         id="tspan14420"><tspan
+         id="tspan17944"><tspan
            style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14416">d</tspan><tspan
+           id="tspan17940">d</tspan><tspan
            style="font-size:65%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';baseline-shift:sub"
-           id="tspan14418">c</tspan></tspan></text>
+           id="tspan17942">c</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker62689-13-0-0);marker-end:url(#marker20700-09-0-1)"
        d="m 625.56865,645.87587 h 10.47779"
@@ -7813,52 +7881,6 @@
        inkscape:export-filename="exp.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -24.63817,422.02167 v 11.63442"
-       id="path53388-1-6-7-1-2"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -29.06358,417.79358 v 19.01996"
-       id="path53390-7-4-4-7-2"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-112.27187,249.58834)"
-       id="text57873-4-52-6-5-2"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-13-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="313.4707"
-         y="746.35847"
-         id="tspan14424"><tspan
-           style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14422">V</tspan></tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 13.11292,386.20671 h 19.31971 v 41.58888 h -56.57545"
-       id="path4405-17-7"
-       sodipodi:nodetypes="cccc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -67.15106,386.25153 h -19.60928 v 41.49924 h 57.4903"
-       id="path4405-1-4-0"
-       sodipodi:nodetypes="cccc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
     <rect
        style="fill:#fffde0;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect5052-4-8-1-3"
@@ -7943,28 +7965,6 @@
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -73.14298,366.36854 c 0,-8.30773 -0.57045,-8.54858 6.97788,-8.56804 12.11864,-0.0312 24.36912,0.1754 33.31685,-0.58582 2.8527,-0.24269 4.60902,-1.5799 5.16426,-3.83541 0.64234,2.37659 2.19553,3.6096 5.07895,3.74831 11.1789,0.53777 26.4356501,0.14687 35.42247,0.43175 6.98332,0.22137 6.70571,1.26991 6.67135,8.69962"
-       id="path62056-0-3"
-       sodipodi:nodetypes="csscssc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-113.43132,153.14602)"
-       id="text57873-4-52-6-3-1-9-8-3"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4-2-2-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="313.4707"
-         y="746.35847"
-         id="tspan14428"><tspan
-           style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14426">V</tspan></tspan></text>
     <rect
        style="fill:url(#linearGradient6317);fill-opacity:1;stroke:#000000;stroke-width:1.19424;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1297-3-8-9-7-3-0-60-4-2-1-4-8-5"
@@ -7991,7 +7991,7 @@
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,356.73449,-309.45642)"
+       transform="matrix(0.26458333,0,0,0.26458333,345.90134,-335.53973)"
        id="text10054"
        style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -7999,12 +7999,12 @@
        inkscape:export-ydpi="300"><tspan
          x="-1251.4902"
          y="2614.6997"
-         id="tspan14432"><tspan
+         id="tspan17948"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14430">(-)</tspan></tspan></text>
+           id="tspan17946">(-)</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,236.81765,-308.43899)"
+       transform="matrix(0.26458333,0,0,0.26458333,249.56259,-335.52896)"
        id="text10054-9"
        style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -8012,9 +8012,61 @@
        inkscape:export-ydpi="300"><tspan
          x="-1251.4902"
          y="2614.6997"
-         id="tspan14436"><tspan
+         id="tspan17952"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14434">(+)</tspan></tspan></text>
+           id="tspan17950">(+)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,469.25093,-335.46802)"
+       id="text10054-1"
+       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-20);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2614.6997"
+         id="tspan17956"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan17954">(-)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,372.91218,-335.45725)"
+       id="text10054-9-9"
+       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-0);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2614.6997"
+         id="tspan17960"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan17958">(+)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,592.13286,-335.52618)"
+       id="text10054-2"
+       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-21);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2614.6997"
+         id="tspan17964"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan17962">(-)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,495.79411,-335.51541)"
+       id="text10054-9-0"
+       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-6);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2614.6997"
+         id="tspan17968"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan17966">(+)</tspan></tspan></text>
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="m 19.26272,383.03895 -6.27347,-2.00469"
@@ -8127,58 +8179,12 @@
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 119.54887,421.97685 v 11.63442"
-       id="path53388-1-6-7-1-2-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 115.12346,417.74876 v 19.01996"
-       id="path53390-7-4-4-7-2-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,31.91517,249.54352)"
-       id="text57873-4-52-6-5-2-3"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-13-4-4);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="313.4707"
-         y="746.35847"
-         id="tspan14440"><tspan
-           style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14438">V</tspan></tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 157.29995,386.16189 h 19.31971 v 41.58888 h -56.57544"
-       id="path4405-17-7-7"
-       sodipodi:nodetypes="cccc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 77.03598,386.20671 H 57.4267 v 41.49924 h 57.4903"
-       id="path4405-1-4-0-9"
-       sodipodi:nodetypes="cccc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
     <rect
        style="fill:#fffde0;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect5052-4-8-1-3-8"
        width="91.888077"
        height="37.554825"
-       x="71.435356"
+       x="50.456226"
        y="367.28302"
        ry="3.0360117e-05"
        rx="3.9159557e-05"
@@ -8187,41 +8193,19 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12)"
-       d="M 71.622516,377.44445 H 118.48116"
+       d="M 50.643382,377.44445 H 97.502026"
        id="path54271-8-9-4-9-0-8-4-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 71.03928,366.32372 c 0,-8.30773 -0.2933,-8.54858 3.5877,-8.56804 6.23084,-0.0312 12.52945,0.1754 17.12996,-0.58582 1.46672,-0.24269 2.36974,-1.5799 2.65522,-3.83541 0.33026,2.37659 1.12884,3.6096 2.61136,3.74831 5.74766,0.53777 13.59196,0.14687 18.21257,0.43175 3.59049,0.22137 3.44776,1.26991 3.43009,8.69962"
-       id="path62056-0-3-6"
-       sodipodi:nodetypes="csscssc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,8.8534001,153.73369)"
-       id="text57873-4-52-6-3-1-9-8-3-7"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4-2-2-4-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="313.4707"
-         y="746.35847"
-         id="tspan14444"><tspan
-           style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14442">V</tspan></tspan></text>
     <rect
        style="fill:url(#linearGradient27206);fill-opacity:1;stroke:#000000;stroke-width:1.19424;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1297-3-8-9-7-3-0-60-4-2-1-4-8-5-0"
        width="50.758953"
        height="2.677197"
        x="360.78107"
-       y="-70.431999"
+       y="-49.452869"
        ry="1.3385985"
        transform="rotate(90)"
        inkscape:export-filename="breakdown.png"
@@ -8229,7 +8213,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12)"
-       d="m 86.976919,377.44445 h 31.504241 m -10.96042,0.92945"
+       d="m 65.997785,377.44445 h 31.504241 m -10.96042,0.92945"
        id="path54271-8-9-4-9-0-8-4-5-3"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8241,7 +8225,7 @@
        width="50.758953"
        height="2.677197"
        x="360.68097"
-       y="-166.77359"
+       y="-145.79445"
        ry="1.3385985"
        transform="rotate(90)"
        inkscape:export-filename="breakdown.png"
@@ -8252,48 +8236,22 @@
        id="rect1297-34-9-5-8"
        width="44.502331"
        height="37.642815"
-       x="118.8211"
+       x="97.841965"
        y="367.19501"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12)"
-       d="m 103.23756,377.44445 h 15.2436"
+       d="m 82.258426,377.44445 h 15.2436"
        id="path54271-8-9-4-9-0-8-4-5-8-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,500.92153,-309.50124)"
-       id="text10054-4"
-       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="-1251.4902"
-         y="2614.6997"
-         id="tspan14448"><tspan
-           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14446">(-)</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,381.00469,-309.65114)"
-       id="text10054-9-8"
-       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="-1251.4902"
-         y="2614.6997"
-         id="tspan14452"><tspan
-           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14450">(+)</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1)"
-       d="M 71.678103,388.55317 H 118.53675"
+       d="M 50.698969,388.55317 H 97.557616"
        id="path54271-8-9-4-9-0-8-4-9-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8301,7 +8259,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1)"
-       d="m 87.032506,388.55317 h 31.504244 m -10.96042,0.92944"
+       d="m 66.053372,388.55317 h 31.504244 m -10.96042,0.92944"
        id="path54271-8-9-4-9-0-8-4-5-7-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8309,7 +8267,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1)"
-       d="m 103.29314,388.55317 h 15.24361"
+       d="m 82.314006,388.55317 h 15.24361"
        id="path54271-8-9-4-9-0-8-4-5-8-8-0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8317,7 +8275,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6)"
-       d="m 71.59505,399.83513 h 46.85864"
+       d="m 50.615916,399.83513 h 46.85864"
        id="path54271-8-9-4-9-0-8-4-9-3-5"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8325,7 +8283,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6)"
-       d="m 86.949454,399.83513 h 31.504236 m -10.96041,0.92944"
+       d="m 65.97032,399.83513 h 31.504236 m -10.96041,0.92944"
        id="path54271-8-9-4-9-0-8-4-5-7-4-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8333,7 +8291,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6)"
-       d="m 103.21009,399.83513 h 15.2436"
+       d="m 82.230956,399.83513 h 15.2436"
        id="path54271-8-9-4-9-0-8-4-5-8-8-9-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8341,7 +8299,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4)"
-       d="M 71.722213,372.05236 H 118.58086"
+       d="M 50.743079,372.05236 H 97.601726"
        id="path54271-8-9-4-9-0-8-4-7-4"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8349,7 +8307,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4)"
-       d="m 87.076616,372.05236 h 31.504244 m -10.96042,0.92945"
+       d="m 66.097482,372.05236 h 31.504244 m -10.96042,0.92945"
        id="path54271-8-9-4-9-0-8-4-5-3-8"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8357,7 +8315,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4)"
-       d="m 103.33726,372.05236 h 15.2436"
+       d="m 82.358126,372.05236 h 15.2436"
        id="path54271-8-9-4-9-0-8-4-5-8-1-5"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8365,7 +8323,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0)"
-       d="m 71.7778,383.1496 h 46.85865"
+       d="m 50.798666,383.1496 h 46.85865"
        id="path54271-8-9-4-9-0-8-4-9-1-8"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8373,7 +8331,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0)"
-       d="m 87.132203,383.1496 h 31.504247 m -10.96042,0.92944"
+       d="m 66.153069,383.1496 h 31.504247 m -10.96042,0.92944"
        id="path54271-8-9-4-9-0-8-4-5-7-9-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8381,7 +8339,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0)"
-       d="m 103.39284,383.1496 h 15.24361"
+       d="m 82.413706,383.1496 h 15.24361"
        id="path54271-8-9-4-9-0-8-4-5-8-8-0-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8389,7 +8347,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7)"
-       d="M 71.694747,393.93583 H 118.55339"
+       d="M 50.715613,393.93583 H 97.574256"
        id="path54271-8-9-4-9-0-8-4-9-3-5-0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8397,7 +8355,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7)"
-       d="m 87.049151,393.93583 h 31.504239 m -10.96041,0.92944"
+       d="m 66.070017,393.93583 h 31.504239 m -10.96041,0.92944"
        id="path54271-8-9-4-9-0-8-4-5-7-4-6-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8405,7 +8363,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7)"
-       d="m 103.30979,393.93583 h 15.2436"
+       d="m 82.330656,393.93583 h 15.2436"
        id="path54271-8-9-4-9-0-8-4-5-8-8-9-7-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8413,7 +8371,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8)"
-       d="m 163.40701,385.86736 -14.09445,2.17957"
+       d="m 142.42788,385.86736 -14.09445,2.17957"
        id="path24036-16-0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8421,7 +8379,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8)"
-       d="m 163.49472,401.09432 -14.5472,0.5188"
+       d="m 142.51559,401.09432 -14.5472,0.5188"
        id="path24036-5-8-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8429,7 +8387,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8)"
-       d="m 163.51265,376.93846 -11.8714,-0.77543"
+       d="m 142.53352,376.93846 -11.8714,-0.77543"
        id="path24036-5-0-5-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8437,7 +8395,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8)"
-       d="m 163.46421,369.37832 -15.75983,1.23764"
+       d="m 142.48508,369.37832 -15.75983,1.23764"
        id="path24036-1-2-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8445,7 +8403,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8)"
-       d="m 163.32202,397.20701 -16.01757,-3.21136"
+       d="m 142.34289,397.20701 -16.01757,-3.21136"
        id="path24036-1-3-9-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8453,7 +8411,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8)"
-       d="m 163.1863,381.401 -16.13605,-0.32998"
+       d="m 142.20717,381.401 -16.13605,-0.32998"
        id="path24036-1-8-49-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8461,7 +8419,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9)"
-       d="m 118.72512,385.38363 14.09445,-2.17957"
+       d="m 97.745986,385.38363 14.094454,-2.17957"
        id="path24036-16-0-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8469,7 +8427,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9)"
-       d="m 118.63741,370.15667 14.54719,-0.5188"
+       d="m 97.658276,370.15667 14.547194,-0.5188"
        id="path24036-5-8-6-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8477,7 +8435,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9)"
-       d="m 118.61948,394.31253 11.8714,0.77543"
+       d="m 97.640346,394.31253 11.871404,0.77543"
        id="path24036-5-0-5-9-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8485,7 +8443,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9)"
-       d="m 118.66792,401.87267 15.75981,-1.23764"
+       d="M 97.688786,401.87267 113.4486,400.63503"
        id="path24036-1-2-2-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8493,7 +8451,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9)"
-       d="m 118.81011,374.04398 16.01756,3.21136"
+       d="m 97.830976,374.04398 16.017564,3.21136"
        id="path24036-1-3-9-1-5"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8501,55 +8459,9 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9)"
-       d="m 118.94582,389.84999 16.13605,0.32998"
+       d="m 97.966686,389.84999 16.136054,0.32998"
        id="path24036-1-8-49-7-8"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 264.461,421.93203 v 11.63442"
-       id="path53388-1-6-7-1-2-3-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.54;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 260.03559,417.70394 V 436.7239"
-       id="path53390-7-4-4-7-2-3-2"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,176.8273,249.4987)"
-       id="text57873-4-52-6-5-2-3-1"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-13-4-4-7);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="313.4707"
-         y="746.35847"
-         id="tspan14456"><tspan
-           style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14454">V</tspan></tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 302.21209,386.11707 h 19.31971 v 41.58888 h -56.57545"
-       id="path4405-17-7-7-0"
-       sodipodi:nodetypes="cccc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 221.94811,386.16189 h -19.60928 v 41.49924 h 57.4903"
-       id="path4405-1-4-0-9-5"
-       sodipodi:nodetypes="cccc"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -8558,42 +8470,20 @@
        id="rect5052-4-8-1-3-8-8"
        width="91.888077"
        height="37.554825"
-       x="216.34749"
+       x="173.52437"
        y="367.23822"
        ry="3.0360117e-05"
        rx="3.9159557e-05"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 215.94822,366.2789 c 0,-8.30773 -0.10851,-8.54858 1.32731,-8.56804 2.30516,-0.0312 4.6354,0.1754 6.33741,-0.58582 0.54263,-0.24269 0.87671,-1.5799 0.98233,-3.83541 0.12218,2.37659 0.41763,3.6096 0.9661,3.74831 2.12641,0.53777 5.0285,0.14687 6.73794,0.43175 1.32834,0.22137 1.27553,1.26991 1.269,8.69962"
-       id="path62056-0-3-6-5"
-       sodipodi:nodetypes="csscssc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,139.02148,153.51779)"
-       id="text57873-4-52-6-3-1-9-8-3-7-5"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-1-0-0-4-2-2-4-2-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
-       inkscape:transform-center-x="2.5435852"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="313.4707"
-         y="746.35847"
-         id="tspan14460"><tspan
-           style="font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14458">V</tspan></tspan></text>
     <rect
        style="fill:url(#linearGradient28171);fill-opacity:1;stroke:#000000;stroke-width:1.19424;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1297-3-8-9-7-3-0-60-4-2-1-4-8-5-0-0"
        width="50.758953"
        height="2.677197"
        x="360.73627"
-       y="-215.34413"
+       y="-172.52101"
        ry="1.3385985"
        transform="rotate(90)"
        inkscape:export-filename="breakdown.png"
@@ -8605,7 +8495,7 @@
        width="50.758953"
        height="2.677197"
        x="360.63617"
-       y="-311.68573"
+       y="-268.86264"
        ry="1.3385985"
        transform="rotate(90)"
        inkscape:export-filename="breakdown.png"
@@ -8614,42 +8504,16 @@
     <rect
        style="fill:url(#radialGradient3608-7-3-3-6-1);fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1297-34-9-5-8-3"
-       width="74.334862"
-       height="37.642815"
-       x="233.9007"
-       y="367.15021"
+       width="91.767067"
+       height="37.533348"
+       x="173.59064"
+       y="367.20496"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,645.83366,-309.54606)"
-       id="text10054-4-8"
-       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-2-0);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="-1251.4902"
-         y="2614.6997"
-         id="tspan14464"><tspan
-           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14462">(-)</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,525.91682,-309.69596)"
-       id="text10054-9-8-2"
-       style="font-size:32px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-2-0);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="-1251.4902"
-         y="2614.6997"
-         id="tspan14468"><tspan
-           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
-           id="tspan14466">(+)</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,231.81481,-397.12201)"
+       transform="matrix(0.26458333,0,0,0.26458333,210.83568,-397.12201)"
        id="text32291"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:justify;white-space:pre;shape-inside:url(#rect32293);fill:#0002ff;fill-opacity:1;stroke:#ffffff;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -8657,12 +8521,12 @@
        inkscape:export-ydpi="300"><tspan
          x="-369.0332"
          y="2956.0979"
-         id="tspan14472"><tspan
+         id="tspan17972"><tspan
            style="font-weight:bold;stroke:none"
-           id="tspan14470">h</tspan></tspan></text>
+           id="tspan17970">h</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,201.20602,-394.85981)"
+       transform="matrix(0.26458333,0,0,0.26458333,180.22689,-394.85981)"
        id="text32291-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:justify;white-space:pre;shape-inside:url(#rect32293-5);fill:#12d800;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -8670,12 +8534,12 @@
        inkscape:export-ydpi="300"><tspan
          x="-369.0332"
          y="2956.0979"
-         id="tspan14476"><tspan
+         id="tspan17976"><tspan
            style="font-weight:bold"
-           id="tspan14474">e</tspan></tspan></text>
+           id="tspan17974">e</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,242.30311,-392.71789)"
+       transform="matrix(0.26458333,0,0,0.26458333,221.32398,-392.71789)"
        id="text32291-6-4"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:justify;white-space:pre;shape-inside:url(#rect32293-5-8);fill:#12d800;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -8683,9 +8547,9 @@
        inkscape:export-ydpi="300"><tspan
          x="-369.0332"
          y="2956.0979"
-         id="tspan14480"><tspan
+         id="tspan17980"><tspan
            style="font-weight:bold"
-           id="tspan14478">e</tspan></tspan></text>
+           id="tspan17978">e</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,102.25308,-398.60849)"
@@ -8696,12 +8560,12 @@
        inkscape:export-ydpi="300"><tspan
          x="-369.0332"
          y="2956.0979"
-         id="tspan14484"><tspan
+         id="tspan17984"><tspan
            style="font-weight:bold"
-           id="tspan14482">e</tspan></tspan></text>
+           id="tspan17982">e</tspan></tspan></text>
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-8)"
-       d="M 308.23343,385.43887 294.13898,383.2593"
+       d="M 265.41032,385.43887 251.31587,383.2593"
        id="path24036-16-0-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8709,7 +8573,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-8)"
-       d="m 308.32114,370.21191 -14.54719,-0.5188"
+       d="m 265.49803,370.21191 -14.54719,-0.5188"
        id="path24036-5-8-6-3"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8717,7 +8581,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-8)"
-       d="m 308.33907,394.36777 -11.8714,0.77543"
+       d="m 265.51596,394.36777 -11.8714,0.77543"
        id="path24036-5-0-5-9-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8725,7 +8589,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-8)"
-       d="m 308.29063,401.92791 -15.75982,-1.23764"
+       d="M 265.46752,401.92791 249.7077,400.69027"
        id="path24036-1-2-2-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8733,7 +8597,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-8)"
-       d="m 308.14844,374.09922 -16.01757,3.21136"
+       d="m 265.32533,374.09922 -16.01757,3.21136"
        id="path24036-1-3-9-1-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8741,7 +8605,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-8)"
-       d="m 308.01273,389.90523 -16.13606,0.32998"
+       d="m 265.18962,389.90523 -16.13606,0.32998"
        id="path24036-1-8-49-7-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8749,7 +8613,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9-2)"
-       d="m 233.92764,387.49741 14.09445,2.17957"
+       d="m 173.60753,387.49741 14.09445,2.17957"
        id="path24036-16-0-6-3"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8757,7 +8621,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9-2)"
-       d="m 233.79957,400.52297 14.54719,0.5188"
+       d="m 173.47946,400.52297 14.54719,0.5188"
        id="path24036-5-8-6-2-4"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8765,7 +8629,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9-2)"
-       d="m 233.78164,376.36711 11.8714,-0.77543"
+       d="m 173.46153,376.36711 11.8714,-0.77543"
        id="path24036-5-0-5-9-7-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8773,7 +8637,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9-2)"
-       d="m 233.83008,368.80697 15.75982,1.23764"
+       d="m 173.50997,368.80697 15.75982,1.23764"
        id="path24036-1-2-2-1-4"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8781,7 +8645,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9-2)"
-       d="m 233.97227,396.63566 16.01757,-3.21136"
+       d="m 173.65216,396.63566 16.01757,-3.21136"
        id="path24036-1-3-9-1-5-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8789,7 +8653,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#0800ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-8-9-2)"
-       d="m 234.10798,380.82965 16.13606,-0.32998"
+       d="m 173.78787,380.82965 16.13606,-0.32998"
        id="path24036-1-8-49-7-8-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8797,7 +8661,7 @@
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,347.75044,-391.58031)"
+       transform="matrix(0.26458333,0,0,0.26458333,287.43033,-391.58031)"
        id="text32291-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:justify;white-space:pre;shape-inside:url(#rect32293-50);fill:#0002ff;fill-opacity:1;stroke:#ffffff;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -8805,12 +8669,12 @@
        inkscape:export-ydpi="300"><tspan
          x="-369.0332"
          y="2956.0979"
-         id="tspan14488"><tspan
+         id="tspan17988"><tspan
            style="font-weight:bold;stroke:none"
-           id="tspan14486">h</tspan></tspan></text>
+           id="tspan17986">h</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,386.88274,-397.28879)"
+       transform="matrix(0.26458333,0,0,0.26458333,344.05963,-397.28879)"
        id="text32291-6-4-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:justify;white-space:pre;shape-inside:url(#rect32293-5-8-5);fill:#12d800;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        inkscape:export-filename="breakdown.png"
@@ -8818,12 +8682,12 @@
        inkscape:export-ydpi="300"><tspan
          x="-369.0332"
          y="2956.0979"
-         id="tspan14492"><tspan
+         id="tspan17992"><tspan
            style="font-weight:bold"
-           id="tspan14490">e</tspan></tspan></text>
+           id="tspan17990">e</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
-       d="M 36.8041,393.45094 H 49.79771"
+       d="m 27.224195,385.39877 h 12.99361"
        id="path64464"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8831,7 +8695,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-2)"
-       d="m 182.11763,393.45094 h 12.99361"
+       d="M 150.07549,385.49532 H 163.0691"
        id="path64464-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8839,7 +8703,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 118.3964,383.68607 -5.97206,2.00469"
+       d="m 97.417266,383.68607 -5.97206,2.00469"
        id="path24036-16"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8847,7 +8711,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 118.29397,401.69416 -6.41917,-1.41075"
+       d="m 97.314836,401.69416 -6.41917,-1.41075"
        id="path24036-5-8"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8855,7 +8719,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 118.29612,374.90185 -6.41918,-1.41075"
+       d="m 97.316986,374.90185 -6.41918,-1.41075"
        id="path24036-5-0-5"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8863,7 +8727,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 118.36273,368.24855 -4.04322,2.74483"
+       d="m 97.383596,368.24855 -4.04322,2.74483"
        id="path24036-1-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8871,7 +8735,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 111.87694,373.4911 -3.77594,3.90142"
+       d="m 90.897806,373.4911 -3.77594,3.90142"
        id="path24036-1-0-1"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8879,7 +8743,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2-4)"
-       d="m 111.8748,400.28341 -4.49288,2.44066"
+       d="m 90.895666,400.28341 -4.49288,2.44066"
        id="path24036-1-0-4-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8887,7 +8751,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 118.41897,395.85394 -4.04322,-2.74483"
+       d="m 97.439836,395.85394 -4.04322,-2.74483"
        id="path24036-1-3-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8895,7 +8759,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-0-2)"
-       d="m 111.8748,400.28341 -5.08349,-3.06387"
+       d="m 90.895666,400.28341 -5.08349,-3.06387"
        id="path24036-1-3-2-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8903,7 +8767,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2-7-5)"
-       d="m 114.37575,393.10911 -3.49736,-3.18994"
+       d="m 93.396616,393.10911 -3.49736,-3.18994"
        id="path24036-1-0-4-4-0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8911,7 +8775,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-0-0-7)"
-       d="m 114.37575,393.10911 -4.80371,1.66633"
+       d="m 93.396616,393.10911 -4.80371,1.66633"
        id="path24036-1-3-2-9-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8919,7 +8783,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31)"
-       d="m 118.34882,378.71511 -5.4731,0.6178"
+       d="m 97.369686,378.71511 -5.4731,0.6178"
        id="path24036-1-8-49"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8927,7 +8791,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-81-7)"
-       d="m 112.42434,385.69076 -3.90202,-3.15091"
+       d="m 91.445206,385.69076 -3.90202,-3.15091"
        id="path24036-1-8-2-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8935,7 +8799,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-81-8-6)"
-       d="m 112.42434,385.69076 -5.21973,1.67826"
+       d="m 91.445206,385.69076 -5.21973,1.67826"
        id="path24036-1-8-2-3-0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
@@ -8943,445 +8807,8 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-69-8)"
-       d="m 111.87694,373.4911 -3.27311,-1.48233"
+       d="m 90.897806,373.4911 -3.27311,-1.48233"
        id="path24036-1-8-4-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-46)"
-       d="m 216.63843,379.65325 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-7-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-46)"
-       d="m 222.14682,379.65325 h 11.30216 m -3.93206,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-3-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-46)"
-       d="m 227.98033,379.65325 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-1-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-8)"
-       d="m 216.65836,390.8847 h 16.81056"
-       id="path54271-8-9-4-9-0-8-4-9-1-86"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-8)"
-       d="m 222.16676,390.8847 h 11.30216 m -3.93206,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-7-9-0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-8)"
-       d="m 228.00026,390.8847 h 5.46866"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-0-4"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-6)"
-       d="m 216.62856,402.29131 h 16.81056"
-       id="path54271-8-9-4-9-0-8-4-9-3-5-6"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-6)"
-       d="m 222.13696,402.29131 h 11.30216 m -3.93206,0.9397"
-       id="path54271-8-9-4-9-0-8-4-5-7-4-6-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-6)"
-       d="m 227.97047,402.29131 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-9-7-60"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7)"
-       d="m 216.67419,374.20158 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-7-4-9"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7)"
-       d="m 222.18258,374.20158 h 11.30216 m -3.93205,0.93972"
-       id="path54271-8-9-4-9-0-8-4-5-3-8-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7)"
-       d="m 228.0161,374.20158 h 5.46864"
-       id="path54271-8-9-4-9-0-8-4-5-8-1-5-5"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7-1)"
-       d="m 216.69918,368.94186 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-7-4-9-4"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7-1)"
-       d="m 222.20757,368.94186 h 11.30216 m -3.93205,0.93972"
-       id="path54271-8-9-4-9-0-8-4-5-3-8-7-0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7-1)"
-       d="m 228.04109,368.94186 h 5.46864"
-       id="path54271-8-9-4-9-0-8-4-5-8-1-5-5-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0-1)"
-       d="m 216.69413,385.42142 h 16.81056"
-       id="path54271-8-9-4-9-0-8-4-9-1-8-9"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0-1)"
-       d="m 228.03604,385.42142 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-0-6-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7-1)"
-       d="m 216.66434,396.32683 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-9-3-5-0-5"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7-1)"
-       d="m 222.17273,396.32683 h 11.30216 m -3.93205,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-7-4-6-6-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7-1)"
-       d="m 228.00624,396.32683 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-9-7-6-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-46-3)"
-       d="m 216.61052,376.89563 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-7-3-4"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-46-3)"
-       d="m 222.11891,376.89563 h 11.30216 m -3.93206,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-3-7-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-46-3)"
-       d="m 227.95242,376.89563 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-1-8-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-8-1)"
-       d="m 216.63045,388.12708 h 16.81056"
-       id="path54271-8-9-4-9-0-8-4-9-1-86-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-8-1)"
-       d="m 222.13885,388.12708 h 11.30216 m -3.93206,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-7-9-0-2"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-8-1)"
-       d="m 227.97235,388.12708 h 5.46866"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-0-4-2"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-6-8)"
-       d="m 216.60065,399.53369 h 16.81056"
-       id="path54271-8-9-4-9-0-8-4-9-3-5-6-0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-6-8)"
-       d="m 222.10905,399.53369 h 11.30216 m -3.93206,0.9397"
-       id="path54271-8-9-4-9-0-8-4-5-7-4-6-7-2"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-6-8)"
-       d="m 227.94256,399.53369 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-9-7-60-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7-9)"
-       d="m 216.64628,371.44395 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-7-4-9-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7-9)"
-       d="m 222.15467,371.44395 h 11.30216 m -3.93205,0.93973"
-       id="path54271-8-9-4-9-0-8-4-5-3-8-7-5"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-12-4-7-9)"
-       d="m 227.98819,371.44395 h 5.46864"
-       id="path54271-8-9-4-9-0-8-4-5-8-1-5-5-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0-1-9)"
-       d="m 216.66622,382.6638 h 16.81056"
-       id="path54271-8-9-4-9-0-8-4-9-1-8-9-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0-1-9)"
-       d="m 222.17461,382.6638 h 11.30217 m -3.93206,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-7-9-2-7-4"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0-1-9)"
-       d="m 228.00813,382.6638 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-0-6-8-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7-1-3)"
-       d="m 216.63643,393.5692 h 16.81055"
-       id="path54271-8-9-4-9-0-8-4-9-3-5-0-5-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7-1-3)"
-       d="m 222.14482,393.5692 h 11.30216 m -3.93205,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-7-4-6-6-3-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-2-6-7-1-3)"
-       d="m 227.97833,393.5692 h 5.46865"
-       id="path54271-8-9-4-9-0-8-4-5-8-8-9-7-6-3-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 233.56191,380.82965 -6.19496,2.00469"
-       id="path24036-16-3"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 233.45567,402.16529 -5.45885,-1.32747"
-       id="path24036-5-8-0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 233.45789,371.31387 -5.62126,-0.61889"
-       id="path24036-5-0-5-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 233.57025,385.36099 -4.19413,2.74483"
-       id="path24036-1-2-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 227.83663,370.69498 -3.57625,2.87767"
-       id="path24036-1-0-1-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2-4-6)"
-       d="m 227.99682,400.83782 -3.45548,2.11096"
-       id="path24036-1-0-4-9-6"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 233.58533,395.49815 -4.19414,-2.74483"
-       id="path24036-1-3-9-9"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-0-2-0)"
-       d="m 227.99682,400.83782 -3.4982,-2.64874"
-       id="path24036-1-3-2-6-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2-7-5-5)"
-       d="m 229.39119,392.75332 -3.6279,-3.18994"
-       id="path24036-1-0-4-4-0-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-0-0-7-9)"
-       d="m 229.39119,392.75332 -4.98301,1.66633"
-       id="path24036-1-3-2-9-6-9"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-31-3)"
-       d="m 233.51256,375.1781 -5.67738,0.6178"
-       id="path24036-1-8-49-0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-81-7-0)"
-       d="m 227.36695,382.83434 -2.85963,-3.15091"
-       id="path24036-1-8-2-9-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-69-8-3)"
-       d="m 227.83663,370.69498 -3.27167,-1.82944"
-       id="path24036-1-8-4-8-8"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4925-1-1-0-1)"
-       d="m 222.20252,385.42142 h 11.30217 m -3.93206,0.93971"
-       id="path54271-8-9-4-9-0-8-4-5-7-9-2-7"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,317.89591,-396.68956)"
-       id="text32291-6-4-2"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:justify;white-space:pre;shape-inside:url(#rect32293-5-8-2);fill:#12d800;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       inkscape:export-filename="breakdown.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         x="-369.0332"
-         y="2956.0979"
-         id="tspan14496"><tspan
-           style="font-weight:bold"
-           id="tspan14494">e</tspan></tspan></text>
-    <path
-       style="fill:none;stroke:#12d800;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-81-8-6-0)"
-       d="m 227.36695,382.83434 -2.97493,1.6779"
-       id="path24036-1-8-2-3-0-9"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="breakdown.png"
        inkscape:export-xdpi="300"
@@ -9396,12 +8823,12 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="728.94819"
-         id="tspan14500"><tspan
+         id="tspan17996"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14498">E</tspan></tspan></text>
+           id="tspan17994">E</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-5.9823666,205.93076)"
+       transform="matrix(0.26458333,0,0,0.26458333,-26.9615,205.93076)"
        id="text57873-4-8-1"
        style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect57875-0-70-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-miterlimit:4;stroke-dasharray:5.66929, 11.3386;stroke-dashoffset:0"
        inkscape:export-filename="breakdown.png"
@@ -9409,8 +8836,21 @@
        inkscape:export-ydpi="300"><tspan
          x="313.4707"
          y="728.94819"
-         id="tspan14504"><tspan
+         id="tspan18000"><tspan
            style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono, Normal'"
-           id="tspan14502">E</tspan></tspan></text>
+           id="tspan17998">E</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,490.55237,-280.12782)"
+       id="text10054-9-4-82"
+       style="font-size:21.3333px;line-height:1;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect10056-5-7-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.66929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-filename="breakdown.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="-1251.4902"
+         y="2606.0843"
+         id="tspan18004"><tspan
+           style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan18002">(c)</tspan></tspan></text>
   </g>
 </svg>
