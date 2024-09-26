@@ -296,6 +296,12 @@ def plot_and_fit(directory,sample_len,sample_area):
     
     fig.suptitle('Flashing Si',fontsize='large',y=0.93)
     
+    anti_on_ax.annotate(rf'(a)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')  
+    stokes_on_ax.annotate(rf'(b)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')  
+    
+    anti_off_ax.annotate(rf'(c)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')  
+    stokes_off_ax.annotate(rf'(d)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')  
+    
     fig_name = 'si_raman.png'
     plt.savefig(fig_name,dpi=300,bbox_inches='tight')
 
@@ -447,6 +453,9 @@ def plot_vs_temps(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g
     
     w_ax.set_ylabel('Raman shift [1/cm]',fontsize='large',labelpad=5)
     g_ax.set_ylabel('HWHM [1/cm]',fontsize='large',labelpad=5)
+    
+    w_ax.annotate(rf'(a)',xy=(0.025,0.05),xycoords='axes fraction',fontsize='large')  
+    g_ax.annotate(rf'(b)',xy=(0.025,0.9),xycoords='axes fraction',fontsize='large')
     
     fig.supxlabel('Temperature [K]',fontsize='large',y=0.03)
     
@@ -655,9 +664,9 @@ on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g, on_g_err, off_w0
     off_w0_err, off_g, off_g_err, on_currents, off_currents = \
             plot_and_fit(directory,sample_len,sample_area)
     
-plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
-    on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, on_currents, \
-    off_currents)
+# plot_vs_temps(on_temps, on_errs, off_temps, off_errs,
+#     on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, on_currents, \
+#     off_currents)
 
 plot_vs_currents(on_temps, on_errs, off_temps, off_errs,
     on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, 

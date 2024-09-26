@@ -127,7 +127,7 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,
     _fit = _obj_func_hi(time,**params)
     rho_twin.plot(time,_fit,lw=1,marker='o',ms=0,c='k',ls=(0,(4,1,2,1)))
     rho_twin.annotate(rf'$\tau=$ {tau*60:.2f}'+'\n'+rf' $  \pm$ {err_tau*60:.2f} s',
-                      xy=(0.5,0.6),xycoords='axes fraction',fontsize='large')
+                      xy=(0.5,0.5),xycoords='axes fraction',fontsize='large')
     
     params = fits[f'21_air_lo']
     tau = params['tau']
@@ -228,6 +228,11 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,
     fig.supxlabel('Time [m]',fontsize='large',y=0.02)
     
     fig.suptitle(rf'T={temp}$^\circ$C, Si flashed in {environ}',fontsize='large',y=0.94)
+    
+    field_ax.annotate('(a)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
+    field_twin.annotate('(b)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
+    rho_ax.annotate('(c)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
+    rho_twin.annotate('(d)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
     
     fig_name = f'Si_{temp}_C_{environ}.png'
     plt.savefig(fig_name,dpi=300,bbox_inches='tight')

@@ -218,9 +218,11 @@ def plot_and_fit(directory,sample_len,sample_area):
     # anti_off_ax.xaxis.set_major_formatter(FormatStrFormatter('%1d'))
     # stokes_off_ax.xaxis.set_major_formatter(FormatStrFormatter('%1d'))
     
-    # anti_ax.annotate(rf'fan on',xy=(0.1,0.9),xycoords='axes fraction',fontsize='large')  
+    
     anti_ax.set_ylabel('Intensity [arb. units]',fontsize='large',labelpad=5)
    
+    anti_ax.annotate(rf'(a)',xy=(0.05,0.925),xycoords='axes fraction',fontsize='large')  
+    stokes_ax.annotate(rf'(b)',xy=(0.825,0.925),xycoords='axes fraction',fontsize='large')  
     
     fig.supxlabel('Raman shift [1/cm]',fontsize='large',y=-0.04)
     
