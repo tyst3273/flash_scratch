@@ -19,7 +19,7 @@ mpl.rcParams['text.latex.preamble'] = r"\usepackage{bm}"
 
 
 
-fig, ax = plt.subplots(1,3,figsize=(8,2.5),gridspec_kw={'hspace':0.075,'wspace':0.25}) 
+fig, ax = plt.subplots(1,3,figsize=(11,3),gridspec_kw={'hspace':0.075,'wspace':0.2}) 
 # twin_ax = ax.twinx()
 
 # ----------------------
