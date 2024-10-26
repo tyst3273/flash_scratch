@@ -8,13 +8,13 @@ m = 1 # 1.674927e-27 # kg
 Ei = 100
 
 num_E = 500
-Ef = np.linspace(0,250,num_E)
-#Ef = 10
+E = np.linspace(-250,250,num_E)
 
 num_angles = 500
 theta = np.linspace(0,2*np.pi,num_angles)
 
-Ef_m, theta_m = np.meshgrid(Ef,theta,indexing='ij')
+E_m, theta_m = np.meshgrid(E,theta,indexing='ij')
+Ef = Ei - E
 
 p = np.sqrt(2*m*(Ei + Ef - 2*np.sqrt(Ei*Ef)*np.cos(theta)))
 
