@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import h5py
 
-sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy_no_dipole.yaml')
-#sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy.yaml')
+#sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy_no_dipole.yaml')
+sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy.yaml')
 
 h = np.arange(0.5,4.5,0.5)
 l = np.arange(0.5,6.5,0.5)
