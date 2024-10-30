@@ -14,8 +14,8 @@ sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy.yaml')
 #h = np.arange(0.5,5.5,0.5)
 #l = np.arange(0.5,3.5,0.5)
 
-h = np.arange(1,4,1)
-l = np.arange(1,3,1)
+h = np.arange(-0.5,3.5,1)
+l = np.arange(-0.5,2.5,1)
 
 Qpts = np.meshgrid(h,h,l,indexing='ij')
 Qpts = np.c_[Qpts[0].flatten(),Qpts[1].flatten(),Qpts[2].flatten()]
@@ -29,7 +29,7 @@ for T in temps:
 
     sqw.calculate_structure_factors(temperature=T,dw_grid=[20,20,20])
     sqw.get_colormap(E_min=-50,E_max=50,dE=0.05,E_width=2.5,temperature=T)
-    sqw.save_structure_factors_to_hdf5(hdf5_file=f'Ei_14meV_T_{T:g}K.hdf5')
+    sqw.save_structure_factors_to_hdf5(hdf5_file=f'Ei_14meV_T_{T:g}K_ZB.hdf5')
     #sqw.save_structure_factors_to_hdf5(f'split_all_{ii}.hdf5')
 
 

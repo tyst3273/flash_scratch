@@ -7,7 +7,7 @@ import os
 
 
 
-filename = 'Ei_14meV_T_300K.hdf5'
+filename = 'Ei_14meV_T_300K_ZB.hdf5'
 
 with h5py.File(filename,'r') as db:
 
@@ -44,7 +44,7 @@ with PdfPages(pdf_filename) as pdf:
 
         fig.suptitle(f'Q=({Q[0]: 5.3f},{Q[1]: 5.3f},{Q[2]: 5.3f})',fontsize='large',y=0.95)
 
-        ax.set_ylim(-0.01,3.0)
+        ax.set_ylim(-0.01,5.0)
 
         #ax.set_yscale('log')
         #ax.set_ylim(1e-3,1)
