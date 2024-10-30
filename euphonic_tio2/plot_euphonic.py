@@ -7,7 +7,9 @@ import os
 
 
 
-with h5py.File('all_Q_T_300K.hdf5','r') as db:
+filename = 'Ei_14meV_T_300K.hdf5'
+
+with h5py.File(filename,'r') as db:
 
     Qpts = db['Qpts'][...]
     nQ = Qpts.shape[0]
@@ -18,7 +20,9 @@ with h5py.File('all_Q_T_300K.hdf5','r') as db:
     E = db['cmap_energies'][...]
 
 
-with PdfPages('all_Q.pdf') as pdf:
+pdf_filename = filename.replace('hdf5','pdf')
+print(pdf_filename)
+with PdfPages(pdf_filename) as pdf:
 
     for ii in range(nQ):
 
@@ -40,7 +44,7 @@ with PdfPages('all_Q.pdf') as pdf:
 
         fig.suptitle(f'Q=({Q[0]: 5.3f},{Q[1]: 5.3f},{Q[2]: 5.3f})',fontsize='large',y=0.95)
 
-        ax.set_ylim(-0.01,1.0)
+        ax.set_ylim(-0.01,3.0)
 
         #ax.set_yscale('log')
         #ax.set_ylim(1e-3,1)

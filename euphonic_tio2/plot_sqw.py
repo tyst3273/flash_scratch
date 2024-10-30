@@ -5,13 +5,13 @@ import h5py
 
 fig, ax = plt.subplots(1,2,figsize=(6,5),gridspec_kw={'wspace':0.1})
 
-temps = [600]
+temps = [300]
 
 shift = 6
 
 for ii, T in enumerate(temps):
 
-    f = f'T_{T:g}K.hdf5'
+    f = f'Ei_35meV_T_{T:g}K_wZB.hdf5'
     with h5py.File(f,'r') as db:
         Qpts = db['Qpts'][...]
         sqe = db['cmap_structure_factors'][...]
