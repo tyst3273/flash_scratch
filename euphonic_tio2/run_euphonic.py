@@ -10,15 +10,12 @@ import h5py
 
 #sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy_no_dipole.yaml')
 sqw = m_euphonic_sqw.c_euphonic_sqw(phonopy_file='phonopy.yaml')
-<<<<<<< HEAD
 
 #h = np.arange(0.5,5.5,0.5)
 #l = np.arange(0.5,3.5,0.5)
 
 h = np.arange(1,4,1)
 l = np.arange(1,3,1)
-=======
->>>>>>> d3632ca6a9c273befa30f201d051ae5519d50e45
 
 Qpts = np.meshgrid(h,h,l,indexing='ij')
 Qpts = np.c_[Qpts[0].flatten(),Qpts[1].flatten(),Qpts[2].flatten()]
