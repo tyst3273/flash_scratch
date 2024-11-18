@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['plot_IV_si.py', 'plot_rho_si.py', 'plot_IV_TiO2.py']
+recent_files = ['../tomke/orig_plot_si_raman.py', '../tomke/orig_plot_tio2_raman.py']
 
 [main]
 version = 0.2.0
