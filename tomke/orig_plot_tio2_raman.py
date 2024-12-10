@@ -257,10 +257,22 @@ def plot_and_fit(directory,sample_len,sample_area):
         e = np.sqrt(e_s**2+e_as**2) #/2
         g_err.append(e)
         
-        
     data = np.c_[temps,temp_errs,w0,w0_err,g,g_err,currents]
     np.savetxt('si_on_tio2_data.txt',data,fmt='%.6f',header='T [K], dT [K], w0 [1/cm], dw0 [1/cm], G [1/cm], dG [1/cm], I [mA]')
         
+    header = ' '.join([str(_) for _ in currents])
+    anti_fits = np.array(anti_fits) 
+    e = np.atleast_2d(anti_fits[0,0,:])
+    fits = anti_fits[:,1,:]
+    data = np.append(e,fits,axis=0)
+    np.savetxt('tio2_AS_fits.txt',data,fmt='%.3e',header=header)
+     
+    stokes_fits = np.array(stokes_fits)        
+    e = np.atleast_2d(stokes_fits[0,0,:])
+    fits = stokes_fits[:,1,:]
+    data = np.append(e,fits,axis=0)
+    np.savetxt('tio2_S_fits.txt',data,fmt='%.3e',header=header)
+    
     return temps, temp_errs, w0, w0_err, g, g_err
  
 # --------------------------------------------------------------------------------------------------

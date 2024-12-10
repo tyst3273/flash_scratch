@@ -245,7 +245,7 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     
     fig.supxlabel('Time [m]',fontsize='large',y=0.02)
     
-    fig.suptitle(rf'T={temp}$^\circ$C, TiO$_2$ flashed in {environ}',fontsize='large',y=0.94)
+    fig.suptitle(rf'T={round(float(temp)+275)} K, TiO$_2$ flashed in {environ}',fontsize='large',y=0.94)
     
     field_ax.annotate('(a)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
     field_twin.annotate('(b)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')

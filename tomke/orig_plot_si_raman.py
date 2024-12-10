@@ -357,6 +357,38 @@ def plot_and_fit(directory,sample_len,sample_area):
         e = np.sqrt(e_s**2+e_as**2) #/2
         off_g_err.append(e)
         
+    data = np.c_[on_temps,on_errs,on_w0,on_w0_err,on_g,on_g_err,on_currents]
+    np.savetxt('si_fan_on_data.txt',data,fmt='%.6f',header='T [K], dT [K], w0 [1/cm], dw0 [1/cm], G [1/cm], dG [1/cm], I [mA]')
+    
+    data = np.c_[off_temps,off_errs,off_w0,off_w0_err,off_g,off_g_err,off_currents]
+    np.savetxt('si_fan_off_data.txt',data,fmt='%.6f',header='T [K], dT [K], w0 [1/cm], dw0 [1/cm], G [1/cm], dG [1/cm], I [mA]')
+    
+    header = ' '.join([str(_) for _ in on_currents])
+    anti_on_fits = np.array(anti_on_fits) 
+    e = np.atleast_2d(anti_on_fits[0,0,:])
+    fits = anti_on_fits[:,1,:]
+    data = np.append(e,fits,axis=0)
+    np.savetxt('si_AS_on_fits.txt',data,fmt='%.3e',header=header)
+     
+    stokes_on_fits = np.array(stokes_on_fits)        
+    e = np.atleast_2d(stokes_on_fits[0,0,:])
+    fits = stokes_on_fits[:,1,:]
+    data = np.append(e,fits,axis=0)
+    np.savetxt('si_S_on_fits.txt',data,fmt='%.3e',header=header)
+    
+    header = ' '.join([str(_) for _ in off_currents])
+    anti_off_fits = np.array(anti_off_fits) 
+    e = np.atleast_2d(anti_off_fits[0,0,:])
+    fits = anti_off_fits[:,1,:]
+    data = np.append(e,fits,axis=0)
+    np.savetxt('si_AS_off_fits.txt',data,fmt='%.3e',header=header)
+     
+    stokes_off_fits = np.array(stokes_off_fits)        
+    e = np.atleast_2d(stokes_off_fits[0,0,:])
+    fits = stokes_off_fits[:,1,:]
+    data = np.append(e,fits,axis=0)
+    np.savetxt('si_S_off_fits.txt',data,fmt='%.3e',header=header)
+    
     return on_temps, on_errs, off_temps, off_errs, \
         on_w0, on_w0_err, on_g, on_g_err, off_w0, off_w0_err, off_g, off_g_err, \
         on_currents, off_currents
