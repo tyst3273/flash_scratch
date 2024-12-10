@@ -501,16 +501,16 @@ def plot_vs_temps(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g
 def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g, on_g_err,
                 off_w0, off_w0_err, off_g, off_g_err,on_currents,off_currents):
 
-    fig, ax = plt.subplots(1,figsize=(4,4),
+    fig, ax = plt.subplots(1,figsize=(4,3),
                            gridspec_kw={'hspace':0.1,'wspace':0.075})
 
     T_ax = ax #; g_ax = ax[1]
 
     T_ax.errorbar(off_currents,off_temps,yerr=off_errs,ms=6,lw=0,
                   c='b',marker='o',label='Si - fan off')
-    T_ax.errorbar(on_currents,on_temps,yerr=on_errs,ms=6,lw=0,
-                  c='r',marker='s',label='Si - fan on',
-                  markerfacecolor='none',markeredgewidth=1.5)
+    #T_ax.errorbar(on_currents,on_temps,yerr=on_errs,ms=6,lw=0,
+    #              c='r',marker='s',label='Si - fan on',
+    #              markerfacecolor='none',markeredgewidth=1.5)
 
     _T, _dT, _w, _dw, _g, _dg, _I = np.loadtxt('si_on_tio2_data.txt',unpack=True)
 
@@ -531,8 +531,16 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
                 bbox_to_anchor=(1.0,0.0),handletextpad=0.1,ncols=1,labelspacing=0.25)
                 #labelspacing=0.1,handlelength=0.5,handletextpad=0.7)
 
-    _T_fit = np.r_[on_temps[1:],off_temps[1:]]
-    _I_fit = np.r_[on_currents[1:],off_currents[1:]]
+    #_T_fit = np.r_[on_temps[1:],off_temps[1:]]
+    #_I_fit = np.r_[on_currents[1:],off_currents[1:]]
+    #_inds = np.argsort(_I_fit)
+    #_T_fit = _T_fit[_inds]
+    #_I_fit = _I_fit[_inds]
+    #coeff = np.polynomial.polynomial.polyfit(_I_fit,_T_fit,deg=1)
+    #T_ax.plot(_I_fit,coeff[0]+_I_fit*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
+
+    _T_fit = np.array(off_temps[1:]) #np.r_[on_temps[1:],off_temps[1:]]
+    _I_fit = np.array(off_currents[1:]) #np.r_[on_currents[1:],off_currents[1:]]
     _inds = np.argsort(_I_fit)
     _T_fit = _T_fit[_inds]
     _I_fit = _I_fit[_inds]
@@ -578,7 +586,7 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     xlim = [-50,750]
     T_ax.set_xlim(xlim)
 
-    ylim = [200,1800]
+    ylim = [500,1500]
     T_ax.set_ylim(ylim)
 
     T_ax.set_ylabel('Temperature [K]',fontsize='large',labelpad=5)
