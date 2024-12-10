@@ -527,9 +527,9 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     #w_ax.plot(ref_w_T,ref_w,marker='x',ms=6,c='k',lw=0,zorder=1000,mew=2,label='ref.')
     #g_ax.plot(ref_g_T,ref_g,marker='x',ms=6,c='k',lw=0,zorder=1000,mew=2)
 
-    T_ax.legend(frameon=False,fontsize='large',loc='lower right',
-                bbox_to_anchor=(1.0,0.0),handletextpad=0.1,ncols=1,labelspacing=0.25)
-                #labelspacing=0.1,handlelength=0.5,handletextpad=0.7)
+    #T_ax.legend(frameon=False,fontsize='large',loc='lower right',
+    #            bbox_to_anchor=(1.0,0.0),handletextpad=0.1,ncols=1,labelspacing=0.25)
+    #            #labelspacing=0.1,handlelength=0.5,handletextpad=0.7)
 
     #_T_fit = np.r_[on_temps[1:],off_temps[1:]]
     #_I_fit = np.r_[on_currents[1:],off_currents[1:]]
@@ -588,6 +588,9 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
 
     ylim = [500,1500]
     T_ax.set_ylim(ylim)
+
+    T_ax.annotate(r'Si',xy=(0.555,0.23),xycoords='axes fraction',fontsize='medium',color='b')
+    i_ax.annotate(r'TiO$_2$',xy=(0.45,0.66),xycoords='axes fraction',fontsize='medium',color='m')
 
     T_ax.set_ylabel('Temperature [K]',fontsize='large',labelpad=5)
     T_ax.set_xlabel(r'Current density [mA/mm$^2$]',fontsize='large')
