@@ -32,7 +32,7 @@ ind = np.flatnonzero(d < 0)[0]+1
 _E = E[:ind]
 _j = j[:ind]
 rho = _E/_j
-ax[0].plot(_j,_E,lw=1,marker='o',ms=5,c='b',label='Si - fan on')
+ax[0].plot(_j,_E,lw=1,marker='o',ms=5,c='b',label='Si')
 #for ii in range(ind):
 #    ax[0].annotate(rf'{ii+1}',xy=(_j[ii]-15,_E[ii]-10),fontsize='medium',xycoords='data')
     
@@ -52,14 +52,14 @@ ind = np.flatnonzero(d < 0)[0]+1
 
 _E = E[:ind]
 _j = j[:ind]
-ax[0].plot(_j,_E,lw=1,marker='s',ms=5,c='r',mfc='none',label='Si - fan off')
+#ax[0].plot(_j,_E,lw=1,marker='s',ms=5,c='r',mfc='none',label='Si - fan off')
 #for ii in range(ind):
 #    ax[0].annotate(rf'{ii+1}',xy=(_j[ii]+10,_E[ii]+2.5),fontsize='medium',xycoords='data')
         
 # ind += 1
 _E = E[ind-1:]
 _j = j[ind-1:]
-ax[0].plot(_j,_E,lw=1,marker='s',ms=5,c='r',mfc='none')
+#ax[0].plot(_j,_E,lw=1,marker='s',ms=5,c='r',mfc='none')
 #for ii, jj in enumerate(range(ind,E.size)):
 #    ax[0].annotate(rf'{jj+1}',xy=(_j[ii+1]-50,_E[ii+1]-7.5),fontsize='medium',xycoords='data')
     

@@ -507,7 +507,7 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     T_ax = ax #; g_ax = ax[1]
 
     T_ax.errorbar(off_currents,off_temps,yerr=off_errs,ms=6,lw=0,
-                  c='b',marker='o',label='Si - fan off')
+                  c='b',marker='o',label='Si')
     #T_ax.errorbar(on_currents,on_temps,yerr=on_errs,ms=6,lw=0,
     #              c='r',marker='s',label='Si - fan on',
     #              markerfacecolor='none',markeredgewidth=1.5)
