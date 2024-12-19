@@ -38,46 +38,54 @@ shift = 0
 
 filename = 'S_0mA_fan_off.txt'
 e, i = np.loadtxt(os.path.join(directory,filename),unpack=True)
-s_ax.plot(e,i+shift,marker='o',ms=3,lw=2,c='k')
+e = e[::2]
+i = i[::2]
+s_ax.plot(e,i+shift,marker='o',ms=3,lw=0,c='b',mfc='none',mew=0.5)
 s_ax.plot([-1000,1000],[shift,shift],ms=0,lw=1,ls=(0,(1,1)),c=(0.25,0.25,0.25))
 
 data = np.loadtxt('si_S_off_fits.txt')
 e = data[0,:]
 i = data[1,:]
-s_ax.plot(e,i+shift,ms=0,lw=1,c='w',ls='-')#(0,(2,1,1,1)))
+s_ax.plot(e,i+shift,ms=0,lw=1,c='k',ls='-')#(0,(2,1,1,1)))
 
 filename = 'AS_0mA_fan_off.txt'
 e, i = np.loadtxt(os.path.join(directory,filename),unpack=True)
-as_ax.plot(e,i+shift,marker='o',ms=3,lw=2,c='k')
+e = e[::2]
+i = i[::2]
+as_ax.plot(e,i+shift,marker='o',ms=3,lw=0,c='b',mfc='none',mew=0.5)
 as_ax.plot([-1000,1000],[shift,shift],ms=0,lw=1,ls=(0,(1,1)),c=(0.25,0.25,0.25))
 
 data = np.loadtxt('si_AS_off_fits.txt')
 e = data[0,:]
 i = data[1,:]
-as_ax.plot(-e,i+shift,ms=0,lw=1,c='w',ls='-')#(0,(2,1,1,1)))
+as_ax.plot(-e,i+shift,ms=0,lw=1,c='k',ls='-')#(0,(2,1,1,1)))
 
 # high-T, no fan
 shift = 20
 
 filename = 'S_750mA_fan_off.txt'
 e, i = np.loadtxt(os.path.join(directory,filename),unpack=True)
-s_ax.plot(e,i+shift,marker='o',ms=3,lw=2,c='b')
+e = e[::2]
+i = i[::2]
+s_ax.plot(e,i+shift,marker='o',ms=3,lw=0,c='m',mfc='none',mew=0.5)
 s_ax.plot([-1000,1000],[shift,shift],ms=0,lw=1,ls=(0,(1,1)),c=(0.25,0.25,0.25))
 
 data = np.loadtxt('si_S_off_fits.txt')
 e = data[0,:]
 i = data[-1,:]
-s_ax.plot(e,i+shift,ms=0,lw=1,c='w',ls='-')#(0,(2,1,1,1)))
+s_ax.plot(e,i+shift,ms=0,lw=1,c='k',ls='-')#(0,(2,1,1,1)))
 
 filename = 'AS_750mA_fan_off.txt'
 e, i = np.loadtxt(os.path.join(directory,filename),unpack=True)
-as_ax.plot(e,i+shift,marker='o',ms=3,lw=2,c='b')
+e = e[::2]
+i = i[::2]
+as_ax.plot(e,i+shift,marker='o',ms=3,lw=0,c='m',mfc='none',mew=0.5)
 as_ax.plot([-1000,1000],[shift,shift],ms=0,lw=1,ls=(0,(1,1)),c=(0.25,0.25,0.25))
 
 data = np.loadtxt('si_AS_off_fits.txt')
 e = data[0,:]
 i = data[-1,:]
-as_ax.plot(-e,i+shift,ms=0,lw=1,c='w',ls='-')#(0,(2,1,1,1)))
+as_ax.plot(-e,i+shift,ms=0,lw=1,c='k',ls='-')#(0,(2,1,1,1)))
 
 # --------------------------------------------------------
 
@@ -114,23 +122,27 @@ shift = 25
 
 filename = 'S_50mA.txt'
 e, i = np.loadtxt(os.path.join(directory,filename),unpack=True)
-s_ax.plot(e,i+shift,marker='o',ms=3,lw=2,c='m')
+e = e[::2]
+i = i[::2]
+s_ax.plot(e,i+shift,marker='o',ms=3,lw=0,c='r',mfc='none',mew=0.5)
 s_ax.plot([-1000,1000],[shift,shift],ms=0,lw=1,ls=(0,(1,1)),c=(0.25,0.25,0.25))
 
 data = np.loadtxt('tio2_S_fits.txt')
 e = data[0,:]
 i = data[3,:]
-s_ax.plot(e,i+shift,ms=0,lw=1,c='w',ls='-')#(0,(2,1,1,1)))
+s_ax.plot(e,i+shift,ms=0,lw=1,c='k',ls='-')#(0,(2,1,1,1)))
 
 filename = 'AS_50mA.txt'
 e, i = np.loadtxt(os.path.join(directory,filename),unpack=True)
-as_ax.plot(e,i+shift,marker='o',ms=3,lw=2,c='m')
+e = e[::2]
+i = i[::2]
+as_ax.plot(e,i+shift,marker='o',ms=3,lw=0,c='r',mfc='none',mew=0.5)
 as_ax.plot([-1000,1000],[shift,shift],ms=0,lw=1,ls=(0,(1,1)),c=(0.25,0.25,0.25))
 
 data = np.loadtxt('tio2_AS_fits.txt')
 e = data[0,:]
 i = data[3,:]
-as_ax.plot(-e,i+shift,ms=0,lw=1,c='w',ls='-')#(0,(2,1,1,1)))
+as_ax.plot(-e,i+shift,ms=0,lw=1,c='k',ls='-')#(0,(2,1,1,1)))
 
 # --------------------------------------------------------
 
@@ -191,19 +203,28 @@ as_ax.annotate('(a)',xy=(0.05,0.925),xycoords='axes fraction',fontsize='large')
 s_ax.annotate('(b)',xy=(0.05,0.925),xycoords='axes fraction',fontsize='large')  
 
 #as_ax.annotate(r'TiO$_2$, 0 mA',xy=(0.5,0.24),xycoords='axes fraction',fontsize='medium') 
-as_ax.annotate(r'TiO$_2$, 26$\frac{\textrm{mA}}{\textrm{mm}^2}$',xy=(0.5,0.66),xycoords='axes fraction',fontsize='small',color='m') 
+as_ax.annotate(r'TiO$_2$',xy=(0.025,0.66),
+                    xycoords='axes fraction',fontsize='large',color='r') 
+as_ax.annotate(r'26$\frac{\textrm{mA}}{\textrm{mm}^2}$',xy=(0.6,0.66),
+                    xycoords='axes fraction',fontsize='large',color='r')
+
 
 #as_ax.annotate(r'Si, 0 mA',xy=(0.55,0.025),xycoords='axes fraction',fontsize='medium') 
-as_ax.annotate('ambient',xy=(0.625,0.14),xycoords='axes fraction',fontsize='small')
-as_ax.annotate(r'Si, 680$\frac{\textrm{mA}}{\textrm{mm}^2}$',xy=(0.57,0.425),xycoords='axes fraction',fontsize='small',color='b') 
+as_ax.annotate('ambient',xy=(0.6,0.14),xycoords='axes fraction',fontsize='large',c='b')
+
+as_ax.annotate(r'680$\frac{\textrm{mA}}{\textrm{mm}^2}$',xy=(0.575,0.4),
+                    xycoords='axes fraction',fontsize='large',color='m') 
+as_ax.annotate(r'Si',xy=(0.05,0.4),
+                    xycoords='axes fraction',fontsize='large',color='m') 
+
 
 
 #s_ax.annotate(r'300 K',xy=(0.05,0.025),xycoords='axes fraction',fontsize='medium') 
-s_ax.annotate(r'923 K',xy=(0.05,0.425),xycoords='axes fraction',fontsize='small',color='b') 
+s_ax.annotate(r'923 K',xy=(0.05,0.425),xycoords='axes fraction',fontsize='large',color='m') 
 
 
-s_ax.annotate(r'300 K',xy=(0.05,0.14),xycoords='axes fraction',fontsize='small',color='k') 
-s_ax.annotate(r'888 K',xy=(0.05,0.66),xycoords='axes fraction',fontsize='small',color='m') 
+s_ax.annotate(r'300 K',xy=(0.05,0.14),xycoords='axes fraction',fontsize='large',color='b') 
+s_ax.annotate(r'888 K',xy=(0.05,0.66),xycoords='axes fraction',fontsize='large',color='r') 
 
 
 plt.savefig('raman_temps.png',dpi=300,bbox_inches='tight')

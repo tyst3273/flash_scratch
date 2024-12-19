@@ -507,7 +507,7 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     T_ax = ax #; g_ax = ax[1]
 
     T_ax.errorbar(off_currents,off_temps,yerr=off_errs,ms=6,lw=0,
-                  c='b',marker='o',label='Si')
+                  c='m',marker='o',label='Si')
     #T_ax.errorbar(on_currents,on_temps,yerr=on_errs,ms=6,lw=0,
     #              c='r',marker='s',label='Si - fan on',
     #              markerfacecolor='none',markeredgewidth=1.5)
@@ -521,7 +521,7 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
 
     _I /= 1.9345
     T_ax.errorbar(_I,_T,yerr=_dT,ms=6,lw=0,elinewidth=1, #ls=(0,(4,2,2,2)),
-                  c='m',marker='^',label='Si on TiO2',markerfacecolor=None,
+                  c='r',marker='^',label='Si on TiO2',markerfacecolor=None,
                   markeredgewidth=1.5,zorder=1000)
 
     #w_ax.plot(ref_w_T,ref_w,marker='x',ms=6,c='k',lw=0,zorder=1000,mew=2,label='ref.')
@@ -556,7 +556,7 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     T_ax.plot(_I_fit,coeff[0]+_I_fit*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
 
     i_ax = T_ax.inset_axes([0.3,0.5,0.7,0.5],facecolor='w',clip_on=True,zorder=1000,alpha=1)
-    i_ax.errorbar(_I[1:],_T[1:],yerr=_dT[1:],marker='^',ms=6,c='m',markeredgewidth=1.5)
+    i_ax.errorbar(_I[1:],_T[1:],yerr=_dT[1:],marker='^',ms=6,c='r',markeredgewidth=1.5)
     i_ax.plot(_I_fit,coeff[0]+_I_fit*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
     # i_ax.axis([15,55,1150,1950])
     i_ax.axis([10,60,850,1200])
@@ -589,8 +589,8 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     ylim = [500,1500]
     T_ax.set_ylim(ylim)
 
-    T_ax.annotate(r'Si',xy=(0.555,0.23),xycoords='axes fraction',fontsize='medium',color='b')
-    i_ax.annotate(r'TiO$_2$',xy=(0.45,0.66),xycoords='axes fraction',fontsize='medium',color='m')
+    T_ax.annotate(r'Si',xy=(0.555,0.23),xycoords='axes fraction',fontsize='large',color='m')
+    i_ax.annotate(r'TiO$_2$',xy=(0.45,0.66),xycoords='axes fraction',fontsize='large',color='r')
 
     T_ax.set_ylabel('Temperature [K]',fontsize='large',labelpad=5)
     T_ax.set_xlabel(r'Current density [mA/mm$^2$]',fontsize='large')
