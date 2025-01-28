@@ -227,7 +227,7 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
 
     _T_K = int(temp)+275
     
-    fig.supxlabel('Time [m]',fontsize='large',y=-0.1)
+    fig.supxlabel('Time [minutes]',fontsize='large',y=-0.1)
     fig.suptitle(rf'T={_T_K} K, TiO$_2$ flashed in {environ}',fontsize='large',y=1.0)
     
     # field_ax.annotate('(a)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
