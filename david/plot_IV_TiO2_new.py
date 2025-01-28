@@ -118,22 +118,18 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
             
     temp, environ = parse_file_name(file_name)
     
-    fig, ax = plt.subplots(2,2,figsize=(4,5),
-                           gridspec_kw={'height_ratios':[1,1],'width_ratios':[1,1],
+    fig, ax = plt.subplots(1,2,figsize=(4,2),
+                           gridspec_kw={'height_ratios':[1],'width_ratios':[1,1],
                                         'hspace':0.1,'wspace':0.1}) 
     
-    field_ax = ax[0,0]; field_twin = ax[0,1]
-    current_ax = field_ax.twinx(); current_twin = field_twin.twinx()
-    rho_ax = ax[1,0]; rho_twin = ax[1,1]
+    field_ax = ax[0]; field_twin = ax[1]
+    rho_ax = field_ax.twinx(); rho_twin = field_twin.twinx()
     
     field_ax.plot(time,field,lw=1,marker='o',ms=1,c='b')
     field_twin.plot(time,field,lw=1,marker='o',ms=1,c='b')
     
-    current_ax.plot(time,current_den,lw=1,marker='d',ms=1,c='r',ls=(0,(2,1)))
-    current_twin.plot(time,current_den,lw=1,marker='d',ms=1,c='r',ls=(0,(2,1)))
-    
     field_ax.set_zorder(0)
-    current_ax.set_zorder(1)
+    rho_ax.set_zorder(1)
     
     rho_ax.plot(time,conductivity,lw=1,marker='o',ms=1,c='m')
     rho_twin.plot(time,conductivity,lw=1,marker='o',ms=1,c='m')
@@ -154,9 +150,9 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     _fit = _obj_func_lo(time,**params)
     rho_ax.plot(time,_fit,lw=1,marker='o',ms=0,c='k',ls=(0,(4,1,2,1)))
     rho_ax.annotate(rf'$\tau=$ {tau*60:.2f}'+'\n'+rf' $  \pm$ {err_tau*60:.2f} s',
-                      xy=(0.32,0.3),xycoords='axes fraction',fontsize='large')
+                      xy=(0.2,0.43),xycoords='axes fraction',fontsize='large')
     
-    axes = [field_ax,current_ax,rho_ax, field_twin,current_twin,rho_twin]
+    axes = [field_ax,rho_ax, field_twin, rho_twin]
     
     for _ax in axes:
         for axis in ['top','bottom','left','right']:
@@ -173,27 +169,21 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     rho_ax.xaxis.set_major_formatter(FormatStrFormatter('%.1f'))
     
     field_ax.spines.right.set_visible(False)
-    current_ax.spines.right.set_visible(False)
     rho_ax.spines.right.set_visible(False)
     
     field_ax.tick_params(axis='y', colors='b')
-    current_twin.tick_params(axis='y', colors='r')
-    rho_ax.tick_params(axis='y', colors='m')
+    rho_twin.tick_params(axis='y', colors='m')
     
     field_ax.spines.right.set_visible(False)
-    current_ax.spines.right.set_visible(False)
     rho_ax.spines.right.set_visible(False)
     
     field_ax.tick_params(axis='y',which='both',right=False,labelright=False)
-    current_ax.tick_params(axis='y',which='both',right=False,labelright=False)
     rho_ax.tick_params(axis='y',which='both',right=False,labelright=False)
     
     field_twin.tick_params(axis='y',which='both',left=False,labelleft=False)
-    current_twin.tick_params(axis='y',which='both',left=False,labelleft=False)
     rho_twin.tick_params(axis='y',which='both',left=False,labelleft=False)
     
     field_twin.spines.left.set_visible(False)
-    current_twin.spines.left.set_visible(False)
     rho_twin.spines.left.set_visible(False)
     
     d = 0.1  # proportion of vertical to horizontal extent of the slanted line
@@ -221,38 +211,30 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     
     field_ax.set_xlim(t_lo_lims)
     field_ax.set_ylim(field_ylims)
-    current_ax.set_xlim(t_lo_lims)
-    current_ax.set_ylim(current_ylims)
     rho_ax.set_xlim(t_lo_lims)
     rho_ax.set_ylim(rho_ylims)
     
     field_twin.set_xlim(t_hi_lims)
     field_twin.set_ylim(field_ylims)
-    current_twin.set_xlim(t_hi_lims)
-    current_twin.set_ylim(current_ylims)
     rho_twin.set_xlim(t_hi_lims)
     rho_twin.set_ylim(rho_ylims)
     
-    field_ax.set_xticklabels([])
-    current_ax.set_xticklabels([])
-    
-    field_twin.set_xticklabels([])
-    current_twin.set_xticklabels([])
+    # field_ax.set_xticklabels([])
+    # field_twin.set_xticklabels([])
     
     field_ax.set_ylabel('E-field [V/cm]',fontsize='large',labelpad=5,c='b')
-    current_twin.set_ylabel(r'Current density [mA/mm$^2$]',fontsize='large',labelpad=3,c='r')
-    rho_ax.set_ylabel(r'$\sigma$ [($\Omega$-cm)$^{-1}$]',fontsize='large',labelpad=5,c='m')
-    
-    fig.supxlabel('Time [m]',fontsize='large',y=0.02)
-    
-    fig.suptitle(rf'T={round(float(temp)+275)} K, TiO$_2$ flashed in {environ}',fontsize='large',y=0.94)
-    
-    field_ax.annotate('(a)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
-    field_twin.annotate('(b)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
-    rho_ax.annotate('(c)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
-    rho_twin.annotate('(d)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
-    
+    rho_twin.set_ylabel(r'$\sigma$ [($\Omega$-cm)$^{-1}$]',fontsize='large',labelpad=5,c='m')
+
     _T_K = int(temp)+275
+    
+    fig.supxlabel('Time [m]',fontsize='large',y=-0.1)
+    fig.suptitle(rf'T={_T_K} K, TiO$_2$ flashed in {environ}',fontsize='large',y=1.0)
+    
+    # field_ax.annotate('(a)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
+    # field_twin.annotate('(b)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
+    # rho_ax.annotate('(c)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
+    # rho_twin.annotate('(d)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
+    
     fig_name = f'TiO2_{_T_K}_K_{environ}.png'
     plt.savefig(fig_name,dpi=300,bbox_inches='tight')
     
