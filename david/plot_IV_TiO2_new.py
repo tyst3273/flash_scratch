@@ -78,7 +78,7 @@ def get_data(file_name,sample_len,sample_area):
     voltage = np.delete(voltage,_inds)
     current = np.delete(current,_inds)
     
-    resistance = voltage/current
+    resistance = voltage/current*1000
 
     field = voltage/sample_len # V/cm
     current_den = current/sample_area # mA/mm^2
@@ -248,7 +248,7 @@ sample_area = 1.7545
 
 field_ylims = [0,600]
 current_ylims = [0,150]
-rho_ylims = [0,80]
+rho_ylims = [0,80*1e-3]
 
 # 3 to 1 ratio
 t_lo_lims = [0,3] 
@@ -265,7 +265,7 @@ sample_area = 1.6775
 
 field_ylims = [0,400]
 current_ylims = [0,150]
-rho_ylims = [0,80]
+rho_ylims = [0,80*1e-3]
 
 # 3 to 1 ratio
 t_lo_lims = [0,3] 
@@ -281,7 +281,7 @@ sample_area = 1.8535
 
 field_ylims = [0,400]
 current_ylims = [0,150]
-rho_ylims = [0,80]
+rho_ylims = [0,80*1e-3]
 
 # 3 to 1 ratio
 t_lo_lims = [0,3] 
@@ -297,7 +297,7 @@ sample_area = 1.4245
 
 field_ylims = [0,400]
 current_ylims = [0,150]
-rho_ylims = [0,100]
+rho_ylims = [0,100*1e-3]
 
 # 3 to 1 ratio
 t_lo_lims = [0,3] 
@@ -313,7 +313,7 @@ sample_area = 1.969
 
 field_ylims = [0,400]
 current_ylims = [0,150]
-rho_ylims = [0,90]
+rho_ylims = [0,90*1e-3]
 
 # 3 to 1 ratio
 t_lo_lims = [0,3] 
@@ -329,7 +329,7 @@ sample_area = 1.5675
 
 field_ylims = [0,400]
 current_ylims = [0,150]
-rho_ylims = [0,100]
+rho_ylims = [0,0.1]
 
 # 3 to 1 ratio
 t_lo_lims = [0,3] 

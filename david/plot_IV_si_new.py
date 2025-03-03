@@ -55,13 +55,13 @@ def get_data(file_name,sample_len,sample_area):
 
     voltage = np.char.strip(voltage,'V').astype(float) # V
     current = np.char.strip(current,'A').astype(float)*1000 # mA
-    
+
     _inds = np.flatnonzero(voltage == 0)    
     time = np.delete(time,_inds)
     voltage = np.delete(voltage,_inds)
     current = np.delete(current,_inds)
     
-    resistance = voltage/current
+    resistance = voltage/current*1000 # Ohm
 
     field = voltage/sample_len # V/cm
     current_den = current/sample_area # mA/mm^2
@@ -230,7 +230,7 @@ sample_area = 1.7394
 
 field_ylims = [0,40]
 current_ylims = [0,150]
-rho_ylims = [0,600]
+rho_ylims = [0,0.6]
 
 # 3 to 1 ratio
 t_lo_lims = [0.4,0.8] 
