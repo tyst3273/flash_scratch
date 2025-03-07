@@ -252,7 +252,8 @@ def plot_and_fit(file_name,sample_len,sample_area,field_ylims,current_ylims,rho_
     rho_ax.annotate('(c)',xy=(0.05,0.9),xycoords='axes fraction',fontsize='large')
     rho_twin.annotate('(d)',xy=(0.825,0.9),xycoords='axes fraction',fontsize='large')
     
-    fig_name = f'TiO2_{temp}_C_{environ}.png'
+    _T_K = int(temp)+275
+    fig_name = f'TiO2_{_T_K}_K_{environ}.png'
     plt.savefig(fig_name,dpi=300,bbox_inches='tight')
     
     

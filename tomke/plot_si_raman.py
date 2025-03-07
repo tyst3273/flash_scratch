@@ -548,6 +548,8 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
 def plot_vs_power(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g, on_g_err,
                 off_w0, off_w0_err, off_g, off_g_err,on_currents,off_currents):
 
+    print(off_temps)
+
     fig, ax = plt.subplots(1,figsize=(4,4),
                            gridspec_kw={'hspace':0.1,'wspace':0.075})
 
@@ -604,7 +606,6 @@ def plot_vs_power(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, on_g
     i_ax.yaxis.set_label_position("right")
     i_ax.xaxis.tick_top()
     i_ax.xaxis.set_label_position("top")
-    
     
     axes = [T_ax,i_ax]
 

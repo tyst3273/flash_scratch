@@ -556,7 +556,7 @@ def plot_vs_currents(on_temps, on_errs, off_temps, off_errs, on_w0, on_w0_err, o
     T_ax.plot(_I_fit,coeff[0]+_I_fit*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
 
     i_ax = T_ax.inset_axes([0.3,0.5,0.7,0.5],facecolor='w',clip_on=True,zorder=1000,alpha=1)
-    i_ax.errorbar(_I[1:],_T[1:],yerr=_dT[1:],marker='^',ms=6,c='r',markeredgewidth=1.5)
+    i_ax.errorbar(_I[1:],_T[1:],yerr=_dT[1:],marker='^',ms=6,c='r',markeredgewidth=1.5,elinewidth=1,lw=0)
     i_ax.plot(_I_fit,coeff[0]+_I_fit*coeff[1],lw=1,ls=(0,(4,2,2,2)),c='k')
     # i_ax.axis([15,55,1150,1950])
     i_ax.axis([10,60,850,1200])
