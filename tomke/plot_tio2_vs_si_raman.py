@@ -221,8 +221,6 @@ as_ax.annotate(r'Si',xy=(0.05,0.4),
 
 #s_ax.annotate(r'300 K',xy=(0.05,0.025),xycoords='axes fraction',fontsize='medium') 
 s_ax.annotate(r'868 K',xy=(0.05,0.415),xycoords='axes fraction',fontsize='large',color='m') 
-
-
 s_ax.annotate(r'300 K',xy=(0.05,0.14),xycoords='axes fraction',fontsize='large',color='b') 
 s_ax.annotate(r'905 K',xy=(0.05,0.66),xycoords='axes fraction',fontsize='large',color='r') 
 
