@@ -27,7 +27,7 @@ nu_0 = 1/(lambda_0*1e-9)/100 # 1/cm
 E_laser = nu_0 * invcm_2_eV
 
 
-fig, ax = plt.subplots(1,2,figsize=(4.5,4.5),
+fig, ax = plt.subplots(1,2,figsize=(3,3),
                        gridspec_kw={'height_ratios':[1],'width_ratios':[1,1],
                                     'hspace':0.1,'wspace':0.1},clear=True)
 s_ax = ax[1]
@@ -206,7 +206,7 @@ s_ax.set_ylim(ylim)
 
 as_ax.set_ylabel('Intensity [arb. units]',fontsize=16,labelpad=10)
 
-fig.supxlabel(r'Raman shift [cm$^{-1}$]',fontsize=16,y=0.0)
+fig.supxlabel(r'Raman shift [cm$^{-1}$]',fontsize=16,y=-0.05)
 # fig.supxlabel(r'Raman shift [cm$^{-1}$]',fontsize=16,y=-0.05)
 # fig.suptitle('Flashing Si',fontsize=16,y=0.93)
 
@@ -214,20 +214,20 @@ fig.supxlabel(r'Raman shift [cm$^{-1}$]',fontsize=16,y=0.0)
 # s_ax.annotate('(b)',xy=(0.05,0.925),xycoords='axes fraction',fontsize=16)  
 
 #as_ax.annotate(r'TiO$_2$, 0 mA',xy=(0.5,0.24),xycoords='axes fraction',fontsize='medium') 
-as_ax.annotate('Si on\n'+r'TiO$_2$',xy=(0.025,0.66),
+as_ax.annotate('Si on\n'+r'TiO$_2$',xy=(0.5,0.78),
                     xycoords='axes fraction',fontsize=12,color=green) 
-as_ax.annotate(r'2.1$\frac{\rm{A}}{\rm{cm}^2}$',xy=(0.6,0.66),
+as_ax.annotate(r'2.1$\frac{\rm{A}}{\rm{cm}^2}$',xy=(0.525,0.675),
                     xycoords='axes fraction',fontsize=12,color=green)
 
 
 #as_ax.annotate(r'Si, 0 mA',xy=(0.55,0.025),xycoords='axes fraction',fontsize='medium') 
-as_ax.annotate('ambient',xy=(0.55,0.14),xycoords='axes fraction',fontsize=12,c=blue)
+as_ax.annotate('ambient',xy=(0.35,0.14),xycoords='axes fraction',fontsize=12,c=blue)
 
 # as_ax.annotate(r'54.5$\frac{\rm{A}}{\rm{cm}^2}$',xy=(0.575,0.4),
 #                     xycoords='axes fraction',fontsize=12,color=orange) 
-as_ax.annotate(f'{0.8/area:.1f}'+r'$\frac{\rm{A}}{\rm{cm}^2}$',xy=(0.575,0.44),
+as_ax.annotate(f'{0.8/area:.1f}'+r'$\frac{\rm{A}}{\rm{cm}^2}$',xy=(0.45,0.3),
                     xycoords='axes fraction',fontsize=12,color=orange) 
-as_ax.annotate(r'Si',xy=(0.05,0.44),
+as_ax.annotate(r'Si',xy=(0.62,0.44),
                     xycoords='axes fraction',fontsize=12,color=orange) 
 
 
@@ -238,9 +238,9 @@ as_ax.annotate(r'Si',xy=(0.05,0.44),
 # s_ax.annotate(r'905 K',xy=(0.05,0.66),xycoords='axes fraction',fontsize=16,color=green) 
 
 # s_ax.annotate(r'595 C',xy=(0.05,0.415),xycoords='axes fraction',fontsize=12,color=orange) 
-s_ax.annotate(r'485 C',xy=(0.05,0.45),xycoords='axes fraction',fontsize=12,color=orange) 
+s_ax.annotate(r'485 C',xy=(0.03,0.475),xycoords='axes fraction',fontsize=12,color=orange) 
 s_ax.annotate(r'25 C',xy=(0.05,0.14),xycoords='axes fraction',fontsize=12,color=blue) 
-s_ax.annotate(r'632 C',xy=(0.05,0.66),xycoords='axes fraction',fontsize=12,color=green) 
+s_ax.annotate(r'632 C',xy=(0.03,0.7),xycoords='axes fraction',fontsize=12,color=green) 
 
 
 plt.savefig('raman_temps.png',dpi=300,bbox_inches='tight')
